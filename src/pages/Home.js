@@ -2,13 +2,8 @@ import Nav from "../component/Nav";
 import CloudLottie from "../component/CloudLottie";
 import BottomArrow from "../component/BottomArrow";
 import IntroVillage from "../component/IntroVillage";
-import { useEffect } from "react";
 
 const Home = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    })
-
     return (
         <div className='Home min-h-screen'>
             {/* MAIN */}

@@ -1,6 +1,7 @@
 const Joy = () => {
     return (
-        <div>흥얼마을</div>
+        <div>흥얼마을
+        </div>
     )
 }
 
