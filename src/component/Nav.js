@@ -24,26 +24,21 @@ const Nav = () => {
                         <img src={process.env.PUBLIC_URL + `assets/Logo/Logo.png`} alt="Logo" />
                     </Link>
                 </div>
-                <div className="navMenu titlegreen">
-                    <div className="text-[40px] cursor-pointer">
-                        <ion-icon name="menu" onClick={() => setIsOpen(!isOpen)}></ion-icon>
+                    <div className={`off-screen-menu ${isOpen ? 'open' : ''} flex justify-center items-center tracking-[1px] z-20 `}>
+                        {isOpen && (
+                        <ul>
+                            <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><a href="#">Test1</a></li>
+                            <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><a href="#">Test2</a></li>
+                            <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><a href="#">Test3</a></li>
+                        </ul>
+                        )}
                     </div>
-                </div>
+                    <div className={`hamburger-menu ${isOpen ? 'active' : ''} cursor-pointer z-20`} onClick={() => setIsOpen(!isOpen)}>
+                        <div className="ham-bar bar-top menugreen"></div>
+                        <div className="ham-bar bar-mid menugreen"></div>
+                        <div className="ham-bar bar-bottom menugreen"></div>
+                    </div>
             </div>
-            {/* Menu */}
-            {isOpen && (
-            <div className="fixed top-0 left-0 bg-white w-[100%] h-[100vh] text-black flex flex-col justify-center items-center tracking-[1px] z-30">
-                <div className="fixed top-10 text-[40px] cursor-pointer">
-                        <ion-icon name="close" onClick={() => setIsOpen(!isOpen)}></ion-icon>
-                </div>
-                <ul >
-                    {/* 텍스트에 애니메이션 넣어봤는데 괜히 넣었네... 모바일은 잘 안되는듯? */}
-                    <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><a href="#">Home</a></li>
-                    <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><a href="#">Test1</a></li>
-                    <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><a href="#">Test2</a></li>
-                </ul>
-            </div>
-            )}
         </div>
     )
 }
