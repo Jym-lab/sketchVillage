@@ -123,9 +123,25 @@
 }
 
 .Department .Dimg {
-    height: 50px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.Department .Dimg img {
+    width: 30px;
 }
 
 .last:last-child {
     min-height: 80vh;
+}
+
+.threeParent {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.three:first-child {
+    margin-top: 1rem;
+    grid-row: span 2 / span 2;
 }
