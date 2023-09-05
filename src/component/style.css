@@ -150,13 +150,16 @@
     grid-row: span 2 / span 2;
 }
 
+
 /* Nav */
+
 @layer utilities {
-    .textShadow{
+    .textShadow {
         text-shadow: 2px 1px 0 gray;
     }
 }
-.hamburger-menu{
+
+.hamburger-menu {
     height: 50px;
     width: 50px;
     position: relative;
@@ -206,5 +209,7 @@
     opacity: 0;
     transition: opacity .6s ease-in-out;
 }
+
 .off-screen-menu.open {
     opacity: 1;
+}

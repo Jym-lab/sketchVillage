@@ -7,8 +7,16 @@ import Neighbor from './pages/Neighbor';
 import Game from './pages/Game';
 import Joy from './pages/Joy';
 import Healing from './pages/Healing';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    })
+  })
+
   return (
     <BrowserRouter>
       <div className="App">

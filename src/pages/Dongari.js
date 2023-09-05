@@ -3,9 +3,16 @@ import Nav from "../component/Nav";
 import Subtitle from "../component/Subtitle";
 import { FaSearch } from "react-icons/fa";
 import dongari from '../json/dongari.json';
+import { useEffect } from "react";
 
 const Dongari = () => {
     const college = ['기독분과', '문화분과', '예능분과', '체능분과', '학술,봉사분과'];
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    })
 
     return (
         <div className="Dongari Backcolor">
@@ -48,4 +55,4 @@ const Dongari = () => {
     )
 }
 
-export default Dongari;
+export default Dongari;  
