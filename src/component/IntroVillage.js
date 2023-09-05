@@ -10,7 +10,7 @@ const IntroVillage = () => {
 
     return (
         <div className="IntroVillage text-center">
-            <div className="OA text-2xl py-3">SKETCH VILLAGE 소개</div>
+            <div className="OAtitle text-2xl py-3">SKETCH VILLAGE 소개</div>
             <div>
                 <Vill character={'sketch'} title={'스케치마을'} explain={sketchEx} direction={'left'} />
                 <Vill character={'dongari'} title={'동아리마을'} explain={dongariEx} direction={'right'} />

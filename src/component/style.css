@@ -1,1 +1,58 @@
-/* component 디자인은 다 여기에 하기*/
+/* Subtitle */
+
+.Subtitle div {
+    width: 200px;
+    font-size: 27px;
+    -webkit-box-shadow: 0px 10px 10px -5px rgba(166, 166, 166, 1);
+    -moz-box-shadow: 0px 10px 10px -6px rgba(166, 166, 166, 1);
+    box-shadow: 0px 10px 10px -6px rgba(166, 166, 166, 1);
+}
+
+.Subtitle img {
+    bottom: -10px;
+}
+
+.Subtitle .right {
+    right: -25px;
+}
+
+.Subtitle .left {
+    left: -25px;
+}
+
+.Subtitle .sketch_color {
+    background-color: #F0D7AA;
+    color: #ECAA24;
+}
+
+.Subtitle .dongari_color {
+    background-color: #F9DEE1;
+    color: #F4B3BA;
+}
+
+.Subtitle .neighbor_color {
+    background-color: #BFD8EE;
+    color: #5C91C6;
+}
+
+.Subtitle .joy_color {
+    background-color: #E0C0EC;
+    color: #AE87BC;
+    font-size: 25px;
+}
+
+.Subtitle .game_color {
+    background-color: #F4AEAD;
+    color: #E94948;
+    font-size: 25px;
+}
+
+.Subtitle .joy_color .left,
+.Subtitle .game_color .left {
+    left: -30px;
+}
+
+.Subtitle .joy_color .left,
+.Subtitle .game_color .right {
+    right: -30px;
+}
