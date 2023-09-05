@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Subtitle */
 
 .Subtitle div {
@@ -128,4 +132,11 @@
 
 .last:last-child {
     min-height: 80vh;
+}
+
+/* Nav */
+@layer utilities {
+    .textShadow{
+        text-shadow: 2px 1px 0 red;
+    }
 }
