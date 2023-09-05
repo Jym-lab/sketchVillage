@@ -20,7 +20,7 @@ const Home = () => {
 
             {/* SKETCH VILLAGE 소개 */}
             <div className="Main2 min-h-screen">
-                <Nav />
+                {/* <Nav /> */}
                 <IntroVillage />
             </div>
         </div>
