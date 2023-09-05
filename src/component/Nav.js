@@ -11,7 +11,7 @@ const Nav = () => {
                         behavior: 'smooth',
                     });
                 }}>
-                    <img src={process.env.PUBLIC_URL + `assets/Logo.png`} alt="Logo" />
+                    <img src={process.env.PUBLIC_URL + `assets/Logo/Logo.png`} alt="Logo" />
                 </Link>
             </div>
             <div className="navMenu titlegreen">

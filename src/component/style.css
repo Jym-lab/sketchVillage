@@ -86,3 +86,46 @@
     color: #E0C0EC;
     border-color: #E0C0EC;
 }
+
+
+/* Dongari */
+
+
+/* Dongari 검색창 */
+
+.dongariSearch input {
+    border: 5px solid #F5B3BA;
+    background: none;
+}
+
+.dongariSearch .searchIcon {
+    top: 22%;
+    right: 15%;
+}
+
+.college {
+    color: #F4B3BA;
+    font-size: 23px;
+}
+
+
+/* 학과 */
+
+.Department .Dtitle {
+    background-color: #FFDADE;
+    border: 1px solid #F0949E;
+    left: 25px;
+    top: -10px;
+}
+
+.Department .Dexplain {
+    border: 2px solid #F0949E;
+}
+
+.Department .Dimg {
+    height: 50px;
+}
+
+.last:last-child {
+    min-height: 80vh;
+}

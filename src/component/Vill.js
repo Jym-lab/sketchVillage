@@ -6,7 +6,7 @@ const Vill = ({ character, title, explain, direction }) => {
         <div className="Vill">
             <div className="relative">
                 <div>
-                    <img className={['vill_character', 'absolute', 'z-10', `${direction}_img`].join(' ')} src={process.env.PUBLIC_URL + `assets/${character}.png`} alt="character" />
+                    <img className={['vill_character', 'absolute', 'z-10', `${direction}_img`].join(' ')} src={process.env.PUBLIC_URL + `assets/character/${character}.png`} alt="character" />
                 </div>
                 <div className={['vill_title', 'absolute', `${character}`, `${direction}_title`, 'font-bold'].join(' ')}>{title}</div>
                 <div className={['vill_explain', 'absolute', 'top-16', 'mt-2', `${direction}_ex`].join(' ')}>

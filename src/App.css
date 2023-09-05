@@ -74,8 +74,12 @@ body {
     background-color: #155739;
 }
 
-.Main {
+.Backcolor {
     background-color: #FBF4E8;
+    min-height: 100vh;
+}
+
+.Main {
     background-image: url('../public/assets/all.png');
     background-position: top;
     background-size: cover;
