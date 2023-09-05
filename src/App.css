@@ -103,57 +103,57 @@ body {
     border-radius: 20px;
 }
 
-.sketch {
+.Vill .sketch {
     background-color: #F9EDAA;
     border: 5px solid #F7E375;
     left: 100px !important;
 }
 
-.dongari {
+.Vill .dongari {
     background-color: #F9E0E2;
     border: 5px solid #F3C4C9;
 }
 
-.neighbor {
+.Vill .neighbor {
     background-color: #C4ECF5;
     border: 5px solid #9AD5E3;
 }
 
-.joy {
+.Vill .joy {
     background-color: #D4BDE7;
     border: 5px solid #BB9DD3;
 }
 
-.game {
+.Vill .game {
     background-color: #F4B7B7;
     border: 5px solid #EB9898;
 }
 
-.healing {
+.Vill .healing {
     background-color: #D3F2B3;
     border: 5px solid #B9E08F;
 }
 
-.right_img {
+.Vill .right_img {
     right: 0;
 }
 
-.right_title {
+.Vill .right_title {
     right: 70px;
 }
 
-.right_ex {
+.Vill .right_ex {
     right: 120px;
 }
 
-.left_img {
+.Vill .left_img {
     left: 0;
 }
 
-.left_title {
+.Vill .left_title {
     left: 70px;
 }
 
-.left_ex {
+.Vill .left_ex {
     left: 115px;
 }

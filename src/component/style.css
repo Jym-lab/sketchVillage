@@ -3,9 +3,6 @@
 .Subtitle div {
     width: 200px;
     font-size: 27px;
-    -webkit-box-shadow: 0px 10px 10px -5px rgba(166, 166, 166, 1);
-    -moz-box-shadow: 0px 10px 10px -6px rgba(166, 166, 166, 1);
-    box-shadow: 0px 10px 10px -6px rgba(166, 166, 166, 1);
 }
 
 .Subtitle img {
@@ -55,4 +52,37 @@
 .Subtitle .joy_color .left,
 .Subtitle .game_color .right {
     right: -30px;
+}
+
+
+/* SwitchBtn */
+
+.SwitchBtn .sketch_color {
+    color: #ECAA24;
+    border-color: #ECAA24;
+}
+
+.SwitchBtn .sketch_color_off {
+    color: #E9CF93;
+    border-color: #E9CF93;
+}
+
+.SwitchBtn .neighbor_color {
+    color: #5C91C6;
+    border-color: #5C91C6;
+}
+
+.SwitchBtn .neighbor_color_off {
+    color: #BFD8EE;
+    border-color: #BFD8EE;
+}
+
+.SwitchBtn .joy_color {
+    color: #AE87BC;
+    border-color: #AE87BC;
+}
+
+.SwitchBtn .joy_color_off {
+    color: #E0C0EC;
+    border-color: #E0C0EC;
 }
