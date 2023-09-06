@@ -61,32 +61,32 @@
 
 /* SwitchBtn */
 
-.SwitchBtn .sketch_color {
+.Sketch .sketch_color {
     color: #ECAA24;
     border-color: #ECAA24;
 }
 
-.SwitchBtn .sketch_color_off {
+.Sketch .sketch_color_off {
     color: #E9CF93;
     border-color: #E9CF93;
 }
 
-.SwitchBtn .neighbor_color {
+.Sketch .neighbor_color {
     color: #5C91C6;
     border-color: #5C91C6;
 }
 
-.SwitchBtn .neighbor_color_off {
+.Sketch .neighbor_color_off {
     color: #BFD8EE;
     border-color: #BFD8EE;
 }
 
-.SwitchBtn .joy_color {
+.Sketch .joy_color {
     color: #AE87BC;
     border-color: #AE87BC;
 }
 
-.SwitchBtn .joy_color_off {
+.Sketch .joy_color_off {
     color: #E0C0EC;
     border-color: #E0C0EC;
 }
