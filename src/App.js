@@ -7,6 +7,7 @@ import Neighbor from './pages/Neighbor';
 import Game from './pages/Game';
 import Joy from './pages/Joy';
 import Healing from './pages/Healing';
+import About from './pages/About';
 import { useEffect } from 'react';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path='/joy' element={<Joy />} />
           <Route path='/game' element={<Game />} />
           <Route path='/healing' element={<Healing />} />
+          <Route path='/about' element={<About />} />
         </Routes>
       </div>
     </BrowserRouter>
