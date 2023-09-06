@@ -1,4 +1,4 @@
-import SketchElement from "../SketchElement";
+import SketchElement from "./SketchElement";
 import Subtitle from "../Subtitle";
 
 const TicketBox = () => {
