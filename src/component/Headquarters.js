@@ -7,13 +7,13 @@ const Headquarters = () => {
     const treeTag = ['#미션수행', '#소원을걸어봐'];
 
     return (
-        <div className="Headquarters">
-            <Subtitle character={'sketch'} title={'프로그램'} direction={'left'} />
+        <div className="Headquarters slide-in">
+            < Subtitle character={'sketch'} title={'프로그램'} direction={'left'} />
 
             <SketchElement logo={'headquarters/photoLogo'} tags={photoTag} img={'headquarters/photo'} right={false} />
             <SketchElement logo={'headquarters/capsuleLogo'} tags={capsuleTag} img={'headquarters/capsule'} right={true} />
             <SketchElement logo={'headquarters/treeLogo'} tags={treeTag} img={'headquarters/tree'} right={false} />
-        </div>
+        </div >
     )
 }
 

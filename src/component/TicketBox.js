@@ -6,7 +6,7 @@ const TicketBox = ({ tags }) => {
     const todayBoothTag = ['#어떤 동아리에', '가입하지?', '#동아리 랜덤 뽑기'];
 
     return (
-        <div>
+        <div className="TicketBox slide-in">
             <div>
                 <Subtitle character={'sketch'} title={'배부 물품'} direction={'left'} />
                 <div className="flex items-center justify-evenly">
