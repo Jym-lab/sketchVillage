@@ -1,22 +1,51 @@
+import Nav from "../component/Nav";
+import SketchElement from "../component/SketchElement";
+import Subtitle from "../component/Subtitle";
 import SwitchBtn from "../component/SwitchBtn";
 
 const Sketch = () => {
+    const missonTag = ['#미션지', '경품 추첨', '소니 헤드셋'];
+    const todayBoothTag = ['#어떤 동아리에 가입하지?', '동아리 랜덤 뽑기'];
+
     return (
         <>
-            <div className="flex justify-center">
-                <SwitchBtn character={'sketch'} title={'매표소'} />
-                <SwitchBtn character={'sketch'} title={'본부'} />
-            </div>
+            <div className="Sketch Backcolor">
+                <Nav />
+                <div className="flex justify-center">
+                    <SwitchBtn character={'sketch'} title={'매표소'} />
+                    <SwitchBtn character={'sketch'} title={'본부'} />
+                </div>
 
-            <div className="flex justify-center">
-                <SwitchBtn character={'neighbor'} title={'부스'} />
-                <SwitchBtn character={'neighbor'} title={'협찬'} />
-                <SwitchBtn character={'neighbor'} title={'학생부스'} />
-            </div>
+                {/* 매표소 */}
+                <div>
+                    <div>
+                        <Subtitle character={'sketch'} title={'배부 물품'} direction={'left'} />
+                        <div className="flex items-center justify-evenly">
+                            <div className="flex flex-col items-center">
+                                <img width="130" src={process.env.PUBLIC_URL + 'assets/sketch/pamplet.png'} alt="" />
+                                <p>팜플렛</p>
+                            </div>
 
-            <div className="flex justify-center">
-                <SwitchBtn character={'joy'} title={'장기자랑'} />
-                <SwitchBtn character={'joy'} title={'동아리'} />
+                            <div>
+                                <div className="flex flex-col items-center">
+                                    <img width="130" src={process.env.PUBLIC_URL + 'assets/sketch/monster.png'} alt="" />
+                                    <p>몬스터 음료</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <Subtitle character={'sketch'} title={'프로그램'} direction={'right'} />
+                        <div>
+                            <SketchElement logo={'missionLogo'} tags={missonTag} img={'mission'} right={false} />
+                            <SketchElement logo={'todayBoothLogo'} tags={todayBoothTag} img={'todayBooth'} right={true} />
+                        </div>
+                    </div>
+                </div>
+
+                {/* 본부 */}
+
             </div>
         </>
     )

@@ -213,3 +213,10 @@
 .off-screen-menu.open {
     opacity: 1;
 }
+
+
+/* SketchElement */
+
+.SketchElement .box {
+    background-color: rgb(240, 215, 170, 0.37);
+}

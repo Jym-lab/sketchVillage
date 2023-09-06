@@ -15,8 +15,8 @@ const Nav = () => {
                         <img src={process.env.PUBLIC_URL + `assets/Logo/Logo.png`} alt="Logo" />
                     </Link>
                 </div>
-                    <div className={`off-screen-menu ${isOpen ? 'open z-20' : '-z-10'} flex justify-center items-center tracking-[1px]`}>
-                        {isOpen && (
+                <div className={`off-screen-menu ${isOpen ? 'open z-20' : '-z-10'} flex justify-center items-center tracking-[1px]`}>
+                    {isOpen && (
                         <ul>
                             <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><a href="#">Test1</a></li>
                             <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><a href="#">Test2</a></li>
