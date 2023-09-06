@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import Nav from "../component/Nav";
 import SwitchBtn from "../component/SwitchBtn";
-import OutBooth from "../component/OutBooth";
-import OutSponsor from "../component/OutSponsor";
-import StudentBooth from "../component/StudentBooth";
+import OutBooth from "../component/neighbor/OutBooth";
+import OutSponsor from "../component/neighbor/OutSponsor";
+import StudentBooth from "../component/neighbor/StudentBooth";
 
 const Neighbor = () => {
     const [onActive, setOnActive] = useState('외부부스');

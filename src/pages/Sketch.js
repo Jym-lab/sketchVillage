@@ -1,8 +1,8 @@
 import Nav from "../component/Nav";
 import { useEffect, useState } from "react";
 import SwitchBtn from "../component/SwitchBtn";
-import Headquarters from "../component/Headquarters";
-import TicketBox from "../component/TicketBox";
+import Headquarters from "../component/sketch/Headquarters";
+import TicketBox from "../component/sketch/TicketBox";
 import '../component/style.css';
 
 const Sketch = () => {

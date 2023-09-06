@@ -1,7 +1,7 @@
-import SketchElement from "./SketchElement";
-import Subtitle from "./Subtitle";
+import SketchElement from "../SketchElement";
+import Subtitle from "../Subtitle";
 
-const TicketBox = ({ tags }) => {
+const TicketBox = () => {
     const missionTag = ['#미션지', '경품 추첨', '소니 헤드셋'];
     const todayBoothTag = ['#어떤 동아리에', '가입하지?', '#동아리 랜덤 뽑기'];
 
@@ -29,8 +29,8 @@ const TicketBox = ({ tags }) => {
             <div>
                 <Subtitle character={'sketch'} title={'프로그램'} direction={'right'} />
                 <div>
-                    <SketchElement logo={'ticketBox/missionLogo'} tags={missionTag} img={'ticketBox/mission'} right={false} />
-                    <SketchElement logo={'ticketBox/todayBoothLogo'} tags={todayBoothTag} img={'ticketBox/todayBooth'} right={true} />
+                    <SketchElement logo={'sketch/ticketBox/missionLogo'} tags={missionTag} img={'sketch/ticketBox/mission'} right={false} />
+                    <SketchElement logo={'sketch/ticketBox/todayBoothLogo'} tags={todayBoothTag} img={'sketch/ticketBox/todayBooth'} right={true} />
                 </div>
             </div>
         </div>

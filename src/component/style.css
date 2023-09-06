@@ -6,6 +6,7 @@
 
 .Subtitle div {
     width: 200px;
+    height: 50px;
     font-size: 27px;
 }
 
@@ -215,10 +216,20 @@
 }
 
 
-/* SketchElement */
+/* Element box */
 
 .SketchElement .box {
     background-color: rgb(240, 215, 170, 0.37);
+}
+
+.Element {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    width: 91.666667%;
+}
+
+.neighborElement .box {
+    background-color: rgb(191, 216, 238, 0.5);
 }
 
 .slide-in {
@@ -233,4 +244,16 @@
     to {
         transform: translateX(0%);
     }
+}
+
+
+/* neighbor */
+
+.NeighborsmallTag {
+    color: #5C91C6;
+    font-size: 13px;
+}
+
+.neighborfontcolor {
+    color: #5C91C6;
 }
