@@ -13,7 +13,7 @@ const OutSponsor = () => {
 
                 <div className="neighborElement Element">
                     <div className="box rounded-2xl p-5 flex justify-evenly items-center text-center">
-                        <div>동아리페스티벌<br />참여자 전체<br /><span className="neighborfontcolor font-bold">몬스터 음료</span> 증정</div>
+                        <div className="text-lg">동아리페스티벌<br />참여자 전체<br /><span className="neighborfontcolor font-bold ">몬스터 음료</span> 증정</div>
                         <img width='130' src={process.env.PUBLIC_URL + `assets/neighbor/monster1.png`} alt="몬스터" />
                     </div>
                 </div>
@@ -25,8 +25,8 @@ const OutSponsor = () => {
                 <div className="neighborElement Element">
                     <div className="box rounded-2xl p-5 flex flex-row-reverse justify-evenly items-center">
                         <ul className="flex flex-col justify-center items-center text-center">
-                            <li className="mb-1 underline underline-offset-4 italic font-bold"><Link to="http://pf.kakao.com/_vxixlaxj" className="flex items-center">
-                                <BsInstagram size='18' className="mr-1" />인스타 팔로우<HiMiniCursorArrowRays className="ml-1" /> </Link></li>
+                            <li className="text-gray-700 mb-1 underline underline-offset-4 italic font-bold"><Link to="http://pf.kakao.com/_vxixlaxj" className="flex items-center">
+                                <BsInstagram size='18' className="mr-1 " />인스타 팔로우<HiMiniCursorArrowRays className="ml-1" /> </Link></li>
                             <li className="mb-1"><MdOutlineKeyboardDoubleArrowDown /></li>
                             <li className="neighborfontcolor">박카스맛 젤리 증정</li>
                         </ul>
@@ -41,7 +41,7 @@ const OutSponsor = () => {
                 <div className="neighborElement Element last">
                     <div className="box rounded-2xl p-5 flex justify-evenly items-center">
                         <ul className="flex flex-col justify-center items-center text-center">
-                            <li className="mb-1 underline underline-offset-4 italic font-bold"><Link to="http://pf.kakao.com/_vxixlaxj" className="flex items-center ">
+                            <li className="text-gray-700 mb-1 underline underline-offset-4 italic font-bold"><Link to="http://pf.kakao.com/_vxixlaxj" className="flex items-center ">
                                 <SiKakaotalk size='18' className="mr-1" />입솜 카톡채널 추가<HiMiniCursorArrowRays className="ml-1" /></Link></li>
                             <li className="mb-1"><MdOutlineKeyboardDoubleArrowDown /></li>
                             <li className="mb-2"><span className="neighborfontcolor font-bold italic">오일프리 모이스처라이저</span> 증정</li>

@@ -5,7 +5,7 @@ import { HiMiniCursorArrowRays } from "react-icons/hi2";
 
 const OutBooth = () => {
     return (
-        <div className="OutBooth slide-in">
+        <div className="OutBooth slide-in text-lg">
             <div>
                 <ImgSubtitle character={'neighbor'} title={'neighbor/sangsangUniv'} direction={'left'} />
                 <div className="neighborElement Element">
