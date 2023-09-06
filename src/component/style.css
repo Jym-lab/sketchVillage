@@ -232,6 +232,10 @@
     background-color: rgb(191, 216, 238, 0.5);
 }
 
+.GameElement .box {
+    background-color: rgb(244, 174, 173, 0.3);
+}
+
 .slide-in {
     animation: change 0.5s ease forwards;
 }
@@ -256,4 +260,23 @@
 
 .neighborfontcolor {
     color: #5C91C6;
+}
+
+
+/* game */
+
+.gamebtn {
+    background-color: white;
+    border: 1px solid #ec6362;
+    color: #EE4341;
+    font-weight: bold;
+    width: 100px;
+}
+
+.gamelast img {
+    margin-right: -10px;
+}
+
+.gamelast span {
+    font-size: 18px;
 }
