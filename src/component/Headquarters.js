@@ -8,7 +8,7 @@ const Headquarters = () => {
 
     return (
         <div className="Headquarters slide-in">
-            < Subtitle character={'sketch'} title={'프로그램'} direction={'left'} />
+            <Subtitle character={'sketch'} title={'프로그램'} direction={'left'} />
 
             <SketchElement logo={'headquarters/photoLogo'} tags={photoTag} img={'headquarters/photo'} right={false} />
             <SketchElement logo={'headquarters/capsuleLogo'} tags={capsuleTag} img={'headquarters/capsule'} right={true} />

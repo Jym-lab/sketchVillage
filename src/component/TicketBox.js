@@ -7,6 +7,7 @@ const TicketBox = ({ tags }) => {
 
     return (
         <div className="TicketBox slide-in">
+            {/* 배부 물품 */}
             <div>
                 <Subtitle character={'sketch'} title={'배부 물품'} direction={'left'} />
                 <div className="flex items-center justify-evenly">
@@ -24,6 +25,7 @@ const TicketBox = ({ tags }) => {
                 </div>
             </div>
 
+            {/* 프로그램 */}
             <div>
                 <Subtitle character={'sketch'} title={'프로그램'} direction={'right'} />
                 <div>

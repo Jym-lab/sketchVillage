@@ -71,12 +71,12 @@
     border-color: #E9CF93;
 }
 
-.Sketch .neighbor_color {
+.Neighbor .neighbor_color {
     color: #5C91C6;
     border-color: #5C91C6;
 }
 
-.Sketch .neighbor_color_off {
+.Neighbor .neighbor_color_off {
     color: #BFD8EE;
     border-color: #BFD8EE;
 }
