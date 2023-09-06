@@ -1,12 +1,27 @@
 import Nav from "../component/Nav";
 import SketchElement from "../component/SketchElement";
 import Subtitle from "../component/Subtitle";
+import { useState } from "react";
 import SwitchBtn from "../component/SwitchBtn";
+import Game from '../pages/Game'
+import Joy from '../pages/Joy'
 
 const Sketch = () => {
     const missonTag = ['#미션지', '경품 추첨', '소니 헤드셋'];
     const todayBoothTag = ['#어떤 동아리에 가입하지?', '동아리 랜덤 뽑기'];
 
+    const [onActive, setOnActive] = useState('매표소')
+
+    let Content;
+
+    switch (onActive) {
+        // 콘텐츠 컴포넌트 추가해서 추가하면 됨
+        case '매표소':
+            Content = Game;
+            break;
+        case '본부':
+            Content = Joy;
+    }
     return (
         <>
             <div className="Sketch Backcolor">
