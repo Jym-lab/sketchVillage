@@ -1,5 +1,5 @@
 import Department from "../component/Department";
-import Nav from "../component/Nav";
+import Nav from "../component/nav/Nav";
 import Subtitle from "../component/Subtitle";
 import { FaSearch } from "react-icons/fa";
 import dongari from '../json/dongari.json';

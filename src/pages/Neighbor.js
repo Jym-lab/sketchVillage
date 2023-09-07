@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Nav from "../component/Nav";
+import Nav from "../component/nav/Nav";
 import SwitchBtn from "../component/SwitchBtn";
 import OutBooth from "../component/neighbor/OutBooth";
 import OutSponsor from "../component/neighbor/OutSponsor";

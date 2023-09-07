@@ -8,7 +8,8 @@ import Game from './pages/Game';
 import Joy from './pages/Joy';
 import Healing from './pages/Healing';
 import { useEffect } from 'react';
-import Nav from './component/Nav';
+import Nav from './component/nav/Nav';
+import Present from './component/main/Present';
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
           <Route path='/game' element={<Game />} />
           <Route path='/healing' element={<Healing />} />
           <Route path='/nav' element={<Nav />} />
+          <Route path='/present' element={<Present />} />
         </Routes>
       </div>
     </BrowserRouter>

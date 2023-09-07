@@ -1,7 +1,7 @@
-import Nav from "../component/Nav";
+import Nav from "../component/nav/Nav";
 import CloudLottie from "../component/CloudLottie";
 import BottomArrow from "../component/BottomArrow";
-import IntroVillage from "../component/IntroVillage";
+import IntroVillage from "../component/main/IntroVillage";
 
 const Home = () => {
     return (

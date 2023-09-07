@@ -1,4 +1,4 @@
-import Nav from "../component/Nav";
+import Nav from "../component/nav/Nav";
 import { useEffect, useState } from "react";
 import SwitchBtn from "../component/SwitchBtn";
 import Headquarters from "../component/sketch/Headquarters";

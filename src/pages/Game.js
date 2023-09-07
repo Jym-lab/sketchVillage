@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Nav from "../component/Nav";
+import Nav from "../component/nav/Nav";
 import GameElement from "../component/game/GameElement";
 import Subtitle from "../component/Subtitle";
 

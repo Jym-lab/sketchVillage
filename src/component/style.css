@@ -307,3 +307,10 @@
         width: 100vw;
     }
 }
+
+.presentBtn button {
+    background-color: #ADCE77;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
