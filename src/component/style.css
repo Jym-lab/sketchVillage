@@ -137,7 +137,7 @@
 }
 
 .last:last-child {
-    min-height: 80vh;
+    min-height: 60vh;
 }
 
 .threeParent {
@@ -161,8 +161,8 @@
 }
 
 .hamburger-menu {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 35px;
     position: relative;
     padding: 1rem;
 }
@@ -234,6 +234,7 @@
 
 .GameElement .box {
     background-color: rgb(244, 174, 173, 0.3);
+    border-radius: 100px;
 }
 
 .slide-in {

@@ -23,7 +23,7 @@ const Game = () => {
 
                 <div>
                     <Subtitle character='game' title='대형 윷놀이' direction='right' />
-                    <GameElement title={'스둥이를 이겨라'} img={'second'} right={true} />
+                    <GameElement title={'스둥이를 이겨라!'} img={'second'} right={true} />
                 </div>
 
                 <div className="last">

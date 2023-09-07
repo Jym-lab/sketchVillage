@@ -77,6 +77,10 @@ body {
 .Backcolor {
     background-color: #FBF4E8;
     min-height: 100vh;
+    background-image: url('../public/assets/backGrass.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
 }
 
 .Main {
