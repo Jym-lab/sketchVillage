@@ -280,3 +280,30 @@
 .gamelast span {
     font-size: 18px;
 }
+
+
+/* Nav */
+
+.ShowNav {
+    background-color: #B4D7F1;
+    background-image: url('../../public/assets/navimg.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.ShowNav ul {
+    color: white;
+}
+
+@media (min-width: 375px) {
+    .ShowNav {
+        width: 375px;
+    }
+}
+
+@media (max-width:500px) {
+    .ShowNav {
+        width: 100vw;
+    }
+}
