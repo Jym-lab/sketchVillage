@@ -28,7 +28,7 @@ const Sketch = () => {
         <>
             <div className="Sketch Backcolor">
                 <Nav />
-                <div className="flex justify-center OA">
+                <div className="flex justify-center OA pt-14">
                     <SwitchBtn character={'sketch'} title={'매표소'} onActive={onActive} setOnActive={setOnActive} />
                     <SwitchBtn character={'sketch'} title={'본부'} onActive={onActive} setOnActive={setOnActive} />
                 </div>
