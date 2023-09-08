@@ -12,7 +12,7 @@ const OutBooth = () => {
                     <div className="box rounded-2xl p-5 pl-12">
                         <ul className="list-none">
                             <li className="text-gray-700 mb-1">
-                                <Link to="https://www.ktng.com/univ" className="flex items-center">
+                                <Link to="https://naver.me/FjckD8yl" target="_blank" rel="noopener noreferrer" className="flex items-center">
                                     1.<span className="mr-1 underline underline-offset-4 italic font-bold">해당링크로 참여신청</span>
                                     <HiMiniCursorArrowRays /></Link></li>
                             <li className="NeighborsmallTag mb-4">#공책 #마스킹테이프 #스티커 #선정리클립</li>
