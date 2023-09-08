@@ -27,7 +27,7 @@ const Dongari = () => {
             {/* 부스 소개 */}
             <div>
                 <Subtitle character={'dongari'} title={"부스 소개"} direction={'right'} />
-                <div className="dongariSearch text-center relative my-7">
+                <div className="dongariSearch text-center relative my-7 z-10">
                     <input type="text" className="w-9/12 p-1" />
                     <FaSearch color="#F5B3BA" size='23' className="searchIcon absolute" />
                 </div>
