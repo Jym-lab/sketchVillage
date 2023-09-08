@@ -315,3 +315,28 @@
     padding: 5px 25px;
     border-radius: 20px;
 }
+
+.locationbtn button {
+    font-size: 15px;
+    width: 110px;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 0 5px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+}
+
+.sketchbtn {
+    color: #FFAB00;
+    background-color: #FDE6BE;
+}
+
+.dongaribtn {
+    color: #FC7D8B;
+    background-color: #F9DEE1;
+}
+
+.neighborbtn {
+    color: #247ACF;
+    background-color: #BFD8EE;
+}
