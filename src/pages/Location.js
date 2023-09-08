@@ -1,11 +1,7 @@
 import Nav from "../component/nav/Nav";
-import CloudLottie from "../component/CloudLottie";
-import { useNavigate } from "react-router-dom";
 import WelcomeBtn from "../component/main/WelcomeBtn";
 
 const Location = () => {
-    const Navigate = useNavigate();
-
     return (
         <div className="Location Backcolor">
             <Nav />

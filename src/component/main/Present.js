@@ -3,9 +3,9 @@ import PresentElement from "./PresentElement";
 
 const Present = () => {
     return (
-        <div className="Present Backcolor">
+        <div className="Present Backcolor ">
             <Nav />
-            <div className="pt-14">
+            <div className="pt-14 h-full flex flex-col items-center justify-center">
                 <p className="OAtitle text-3xl text-center py-6">경품</p>
 
                 <div className="grid grid-cols-2 w-11/12 m-auto">
