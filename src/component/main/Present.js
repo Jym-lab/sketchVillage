@@ -15,7 +15,7 @@ const Present = () => {
                     <PresentElement img={'fourth'} grade={'4등'} name={'SKETCH VILLAGE 키링'} />
                 </div>
 
-                <div className="presentBtn text-center mt-8"><button>경품을 받고 싶다면?</button></div>
+                <div className="presentBtn text-center mt-8 relative z-10"><button>경품을 받고 싶다면?</button></div>
             </div>
         </div>
     )

@@ -39,7 +39,7 @@ const Neighbor = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="relative z-10">
                 <Content />
             </div>
         </div>
