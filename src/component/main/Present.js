@@ -5,8 +5,7 @@ const Present = () => {
     return (
         <div className="Present Backcolor">
             <Nav />
-
-            <div>
+            <div className="pt-14">
                 <p className="OAtitle text-3xl text-center py-6">경품</p>
 
                 <div className="grid grid-cols-2 w-11/12 m-auto">
