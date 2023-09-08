@@ -17,7 +17,7 @@ const Nav = () => {
                 <div className="navLogo">
                     <img src={process.env.PUBLIC_URL + `assets/Logo/Logo.png`} alt="Logo" />
                 </div>
-                <div className={`OA off-screen-menu ${isOpen ? 'open z-20' : '-z-20'} flex justify-center items-center tracking-[1px]`}>
+                <div className={`OA off-screen-menu ${isOpen ? 'open z-20' : 'hidden'} flex justify-center items-center tracking-[1px]`}>
                     {isOpen && (
                         <ShowNav />
                     )}
