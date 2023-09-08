@@ -4,7 +4,7 @@ const Vill = ({ character, title, explain, direction }) => {
     const Navigate = useNavigate();
     return (
         <div className="Vill">
-            <div className="relative">
+            <div className="relative z-10">
                 <div>
                     <img className={['vill_character', 'absolute', 'z-10', `${direction}_img`].join(' ')} src={process.env.PUBLIC_URL + `assets/character/${character}.png`} alt="character" />
                 </div>
