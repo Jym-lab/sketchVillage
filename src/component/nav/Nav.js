@@ -6,7 +6,7 @@ const Nav = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <div>
-            <div className="Nav w-96 fixed top-0 flex justify-between items-center px-5 pt-2 z-20">
+            <div className="Nav w-96 fixed top-0 flex justify-between items-center px-5 pt-2">
                 <Link to="/" onClick={() => {
                     window.scrollTo({
                         top: 0,

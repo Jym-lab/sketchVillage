@@ -12,8 +12,8 @@ const Game = () => {
     })
     return (
         <div className="Game Backcolor">
-            <div>
-                <Nav />
+            <Nav />
+            <div className="pt-14">
                 <p className="OAtitle text-3xl text-center py-6">프로그램</p>
 
                 <div>

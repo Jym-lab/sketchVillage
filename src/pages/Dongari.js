@@ -18,7 +18,7 @@ const Dongari = () => {
         <div className="Dongari Backcolor">
             <Nav />
             {/* 부스 배치도 */}
-            <div>
+            <div className="pt-14">
                 <Subtitle character={'dongari'} title={"부스 배치도"} direction={'left'} />
                 <div className="w-11/12 m-auto">
                     <img src={process.env.PUBLIC_URL + `assets/Logo/Logo.png`} alt="부스 배치도" />
@@ -39,12 +39,13 @@ const Dongari = () => {
                                 <div className="OA college text-center mt-10">{col}</div>
                                 {dongari.map((item, index) => {
                                     const key = `${item.department}_${index}`;
-                                    return (
-                                        <div key={key}>
-                                            {col === item.college &&
-                                                <Department department={item.department} explain={item.explain} icon={item.icon} />}
-                                        </div>
-                                    )
+                                    if (col === item.college){
+                                        return (
+                                            <div key={key}>
+                                                <Department department={item.department} explain={item.explain} icon={item.icon} />
+                                            </div>
+                                        )
+                                    }
                                 })}
                             </div>
                         )
