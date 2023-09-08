@@ -4,7 +4,7 @@ const ShowNav = () => {
     return (
         <div className="ShowNav">
             <ul className="min-h-screen flex flex-col items-center justify-center gap-y-6 text-3xl">
-                <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><Link to="#">배치도</Link></li>
+                <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><Link to="/location">배치도</Link></li>
                 <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><Link to="#">무대 소개</Link></li>
                 <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><Link to="/present">경품</Link></li>
                 <li className="hover:textShadow duration-500 hover:translate-y-[-5px]"><Link to="#">만든이들</Link></li>
