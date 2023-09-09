@@ -7,6 +7,7 @@ import Neighbor from './pages/Neighbor';
 import Game from './pages/Game';
 import Joy from './pages/Joy';
 import Healing from './pages/Healing';
+import About from './pages/About';
 import { useEffect } from 'react';
 import Present from './component/main/Present';
 import Location from './pages/Location';
@@ -32,9 +33,8 @@ function App() {
           <Route path='/joy' element={<Joy />} />
           <Route path='/game' element={<Game />} />
           <Route path='/healing' element={<Healing />} />
-          {/* <Route path='/nav' element={<Nav />} /> */}
-          <Route path='/present' element={<Present />} />
-          <Route path='/location' element={<Location />} />
+          <Route path='/about' element={<About />} />
+
         </Routes>
       </div>
     </BrowserRouter>
