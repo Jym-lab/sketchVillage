@@ -9,7 +9,6 @@ import {
 } from "tw-elements-react";
 
 
-
 export default function VerticalyCentered(): JSX.Element {
     const [showModal, setShowModal] = useState(false);
     const [showModal1, setShowModal1] = useState(false);

@@ -18,7 +18,7 @@ const Game = () => {
 
                 <div>
                     <Subtitle character='game' title='손펀치 발펀치' direction='left' />
-                    <GameElement title={'기록경신 아자아자'} img={'punch'} right={false} />
+                    <GameElement title={'기록경신 아자아자'} img={'first'} right={false} />
                 </div>
 
                 <div>
