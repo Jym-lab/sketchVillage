@@ -1,4 +1,4 @@
-import Department from "../component/Department";
+import Department from "../component/dongari/Department";
 import Nav from "../component/nav/Nav";
 import Subtitle from "../component/Subtitle";
 import { FaSearch } from "react-icons/fa";
@@ -39,7 +39,7 @@ const Dongari = () => {
                                 <div className="OA college text-center mt-10">{col}</div>
                                 {dongari.map((item, index) => {
                                     const key = `${item.department}_${index}`;
-                                    if (col === item.college){
+                                    if (col === item.college) {
                                         return (
                                             <div key={key}>
                                                 <Department department={item.department} explain={item.explain} icon={item.icon} />

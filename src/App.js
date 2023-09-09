@@ -11,7 +11,6 @@ import About from './pages/About';
 import { useEffect } from 'react';
 import Present from './component/main/Present';
 import Location from './pages/Location';
-import Ex from './component/modal/Ex';
 import "tw-elements-react/dist/css/tw-elements-react.min.css";
 
 function App() {
@@ -34,7 +33,8 @@ function App() {
           <Route path='/game' element={<Game />} />
           <Route path='/healing' element={<Healing />} />
           <Route path='/about' element={<About />} />
-
+          <Route path='/location' element={<Location />} />
+          <Route path='/prsent' element={<Present />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -41,14 +41,16 @@ body {
 
 @media (min-width: 375px) {
     .App,
-    .fixedsubtitle {
+    .fixedsubtitle,
+    .nav {
         width: 375px;
     }
 }
 
 @media (max-width:500px) {
     .App,
-    .fixedsubtitle {
+    .fixedsubtitle,
+    .Nav {
         width: 100vw;
     }
 }

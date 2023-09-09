@@ -14,7 +14,7 @@ const Sketch = () => {
             top: 0,
             behavior: 'smooth',
         });
-    }, [Content])
+    }, [Content, onActive])
 
     switch (onActive) {
         case '본부':

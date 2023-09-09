@@ -14,7 +14,7 @@ const Neighbor = () => {
             top: 0,
             behavior: 'smooth',
         });
-    }, [Content])
+    }, [Content, onActive])
 
     switch (onActive) {
         case '외부협찬':
