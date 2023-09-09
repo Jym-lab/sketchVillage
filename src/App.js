@@ -10,6 +10,8 @@ import Healing from './pages/Healing';
 import { useEffect } from 'react';
 import Present from './component/main/Present';
 import Location from './pages/Location';
+import Ex from './component/modal/Ex';
+import "tw-elements-react/dist/css/tw-elements-react.min.css";
 
 function App() {
   useEffect(() => {
@@ -34,6 +36,7 @@ function App() {
           <Route path='/present' element={<Present />} />
           <Route path='/location' element={<Location />} />
         </Routes>
+        <Ex />
       </div>
     </BrowserRouter>
   );

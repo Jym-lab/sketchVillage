@@ -340,3 +340,26 @@
     color: #247ACF;
     background-color: #BFD8EE;
 }
+
+
+/* modal */
+
+.modalBack {
+    background-color: #FBF4E8;
+}
+
+.headermodal {
+    justify-content: end !important;
+}
+
+.modalbody {
+    border-radius: 10px;
+}
+
+.modalbody>div>img {
+    padding: 10px 0;
+}
+
+.modaltitle {
+    color: #155739;
+}

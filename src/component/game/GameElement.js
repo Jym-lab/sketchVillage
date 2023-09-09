@@ -1,3 +1,13 @@
+import { useState } from "react";
+import {
+    TERipple,
+    TEModal,
+    TEModalDialog,
+    TEModalContent,
+    TEModalHeader,
+    TEModalBody
+} from "tw-elements-react";
+
 const GameElement = ({ title, img, right }) => {
     return (
         <div className="GameElement Element">
