@@ -7,7 +7,7 @@ const About = () => {
         <>
             <div className="About Backcolor">
                 <Nav />
-                <p className="OAtitle text-3xl text-center py-6">만든이들</p>
+                <p className="OAtitle text-3xl text-center pb-6 pt-20">만든이들</p>
                 <div className="collabo flex items-center justify-center">
                     <div className="team-logo flex flex-col mx-auto">
                         <img className="mx-auto" src={process.env.PUBLIC_URL + `assets/Logo/sketchLogo.png`} alt="sketch logo" />
@@ -41,7 +41,7 @@ const About = () => {
                         <Person id={6} />
                     </div>
                 </div>
-                <img src={process.env.PUBLIC_URL + `assets/bottom.png`} alt="sketch logo" />
+                <img className="mt-20" src={process.env.PUBLIC_URL + `assets/bottom.png`} alt="sketch logo" />
             </div>
         </>
     )
