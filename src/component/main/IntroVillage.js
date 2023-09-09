@@ -1,4 +1,4 @@
-import Vill from "./Vill";
+import Vill from "../Vill";
 
 const IntroVillage = () => {
     const sketchEx = '#미션지 #경품 #보호수';

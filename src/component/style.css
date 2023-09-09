@@ -92,6 +92,30 @@
     border-color: #E0C0EC;
 }
 
+.Vill .sketch_color {
+    color: #ECAA24;
+}
+
+.Vill .dongari_color {
+    color: #F4B3BA;
+}
+
+.Vill .neighbor_color {
+    color: #5C91C6;
+}
+
+.Vill .joy_color {
+    color: #AE87BC;
+}
+
+.Vill .game_color {
+    color: #E94948;
+}
+
+.Vill .healing_color {
+    color: #92CA86;
+}
+
 
 /* Dongari */
 
@@ -137,7 +161,7 @@
 }
 
 .last:last-child {
-    min-height: 80vh;
+    min-height: 60vh;
 }
 
 .threeParent {
@@ -161,8 +185,8 @@
 }
 
 .hamburger-menu {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 35px;
     position: relative;
     padding: 1rem;
 }
@@ -201,7 +225,6 @@
 }
 
 .off-screen-menu {
-    position: fixed;
     top: 0;
     left: 0;
     background-color: white;
@@ -232,6 +255,11 @@
     background-color: rgb(191, 216, 238, 0.5);
 }
 
+.GameElement .box {
+    background-color: rgb(244, 174, 173, 0.3);
+    border-radius: 100px;
+}
+
 .slide-in {
     animation: change 0.5s ease forwards;
 }
@@ -256,4 +284,117 @@
 
 .neighborfontcolor {
     color: #5C91C6;
+}
+
+
+/* game */
+
+.gamebtn {
+    background-color: white;
+    border: 1px solid #ec6362;
+    color: #EE4341;
+    font-weight: bold;
+    width: 100px;
+}
+
+.gamelast img {
+    margin-right: -10px;
+}
+
+.gamelast span {
+    font-size: 18px;
+}
+
+
+/* Nav */
+
+.ShowNav {
+    background-color: #B4D7F1;
+    background-image: url('../../public/assets/navimg.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.ShowNav ul {
+    color: white;
+}
+
+@media (min-width: 375px) {
+    .ShowNav {
+        width: 375px;
+    }
+}
+
+@media (max-width:500px) {
+    .ShowNav {
+        width: 100vw;
+    }
+}
+
+.presentBtn button {
+    background-color: #ADCE77;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+
+.locationbtn button {
+    font-size: 15px;
+    width: 110px;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 0 5px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+}
+
+.sketchbtn {
+    color: #FFAB00;
+    background-color: #FDE6BE;
+}
+
+.dongaribtn {
+    color: #FC7D8B;
+    background-color: #F9DEE1;
+}
+
+.neighborbtn {
+    color: #247ACF;
+    background-color: #BFD8EE;
+}
+
+
+/* modal */
+
+.modalBack {
+    background-color: #FBF4E8;
+}
+
+.headermodal {
+    justify-content: end !important;
+}
+
+.modalbody {
+    border-radius: 10px;
+}
+
+.modalbody>div>img {
+    padding: 10px 0;
+}
+
+.modaltitle {
+    color: #155739;
+}
+
+.modaltitlegame {
+    color: #155739;
+    font-size: 32px;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.basicColor {
+    background-color: #FBF4E8;
 }
