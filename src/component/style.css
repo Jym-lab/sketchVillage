@@ -92,6 +92,30 @@
     border-color: #E0C0EC;
 }
 
+.Vill .sketch_color {
+    color: #ECAA24;
+}
+
+.Vill .dongari_color {
+    color: #F4B3BA;
+}
+
+.Vill .neighbor_color {
+    color: #5C91C6;
+}
+
+.Vill .joy_color {
+    color: #AE87BC;
+}
+
+.Vill .game_color {
+    color: #E94948;
+}
+
+.Vill .healing_color {
+    color: #92CA86;
+}
+
 
 /* Dongari */
 
@@ -201,7 +225,6 @@
 }
 
 .off-screen-menu {
-    position: fixed;
     top: 0;
     left: 0;
     background-color: white;
@@ -370,4 +393,8 @@
     -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: white;
     text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.basicColor {
+    background-color: #FBF4E8;
 }

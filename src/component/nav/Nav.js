@@ -6,7 +6,7 @@ const Nav = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <div>
-            <div className={`Nav w-96 fixed top-0 flex justify-between items-center px-5 pt-2 ${isOpen ? 'z-20' : 'z-10'}`}>
+            <div className={`Nav w-96 fixed top-0 flex justify-between items-center px-5 pt-2 ${isOpen ? 'z-40' : 'z-30'}`}>
                 <Link className={`${isOpen ? '' : 'z-20'}`} to="/" onClick={() => {
                     window.scrollTo({
                         top: 0,
@@ -17,7 +17,7 @@ const Nav = () => {
                 <div className="navLogo">
                     <img src={process.env.PUBLIC_URL + `assets/Logo/Logo.png`} alt="Logo" />
                 </div>
-                <div className={`OA off-screen-menu ${isOpen ? 'open' : ''} flex justify-center items-center tracking-[1px]`}>
+                <div className={`OA off-screen-menu ${isOpen ? 'open fixed' : 'hidden'} flex justify-center items-center tracking-[1px]`}>
                     {isOpen && (
                         <ShowNav />
                     )}

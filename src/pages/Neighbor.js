@@ -31,18 +31,18 @@ const Neighbor = () => {
     return (
         <div className="Neighbor Backcolor">
             <Nav />
-            <div className="pt-14">
-                <div className="flex justify-center OA">
+            <div className="fixed fixedsubtitle z-20">
+                <div className="flex justify-center OA pt-14 basicColor">
                     <SwitchBtn character={'neighbor'} title={'외부부스'} onActive={onActive} setOnActive={setOnActive} />
                     <SwitchBtn character={'neighbor'} title={'외부협찬'} onActive={onActive} setOnActive={setOnActive} />
                     <SwitchBtn character={'neighbor'} title={'학생부스'} onActive={onActive} setOnActive={setOnActive} />
                 </div>
             </div>
 
-            <div className="relative z-10">
+            <div className="pt-32">
                 <Content />
             </div>
-        </div>
+        </div >
     )
 }
 

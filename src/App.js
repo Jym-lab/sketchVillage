@@ -36,7 +36,6 @@ function App() {
           <Route path='/present' element={<Present />} />
           <Route path='/location' element={<Location />} />
         </Routes>
-        <Ex />
       </div>
     </BrowserRouter>
   );

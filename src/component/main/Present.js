@@ -29,7 +29,7 @@ export default function Present(): JSX.Element {
                         <PresentElement img={'fourth'} grade={'4등'} name={'SKETCH VILLAGE 키링'} />
                     </div>
 
-                    <div className="presentBtn text-center mt-8">
+                    <div className="presentBtn text-center">
                         <div className="space-x-2">
                             {/* <!-- Button trigger vertically centered modal--> */}
                             <TERipple rippleColor="white">
@@ -81,9 +81,9 @@ export default function Present(): JSX.Element {
                         {/* <!--Modal body--> */}
 
                         <TEModalBody className="modalBack modalbody ">
-                            <div className="flex flex-col items-center p-5">
-                                <img width='200' src={process.env.PUBLIC_URL + `assets/modal/modal1-title.png`} alt="img" />
-                                <img width='300' src={process.env.PUBLIC_URL + `assets/modal/modal1.png`} alt="img" />
+                            <div className="flex flex-col items-center">
+                                <img width='150' src={process.env.PUBLIC_URL + `assets/modal/modal1-title.png`} alt="img" />
+                                <img width='200' src={process.env.PUBLIC_URL + `assets/modal/modal1.png`} alt="img" />
                                 <p className="OAtitle text-xl text-center">
                                     SKETCH 매표소에서 <br />
                                     팜플렛을 받아 <br />

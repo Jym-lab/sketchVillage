@@ -40,13 +40,15 @@ body {
 }
 
 @media (min-width: 375px) {
-    .App {
+    .App,
+    .fixedsubtitle {
         width: 375px;
     }
 }
 
 @media (max-width:500px) {
-    .App {
+    .App,
+    .fixedsubtitle {
         width: 100vw;
     }
 }
