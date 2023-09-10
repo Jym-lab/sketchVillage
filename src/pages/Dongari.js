@@ -44,7 +44,14 @@ const Dongari = () => {
                                     if (col === item.college) {
                                         return (
                                             <div key={key}>
-                                                <Department department={item.department} explain={item.explain} icon={item.icon} />
+                                                <Department
+                                                    department={item.department}
+                                                    menu={item.menu}
+                                                    goods={item.goods}
+                                                    program={item.program}
+                                                    selling={item.selling}
+                                                    icon={item.icon}
+                                                />
                                             </div>
                                         )
                                     }

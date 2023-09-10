@@ -1,6 +1,14 @@
+import { useEffect } from 'react';
 import Nav from '../component/nav/Nav';
 
 const Healing = () => {
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    },)
+
     return (
         <div className='Healing Backcolor'>
             <Nav />

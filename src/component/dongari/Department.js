@@ -1,4 +1,4 @@
-const Department = ({ department, menu, goods, program, icon }) => {
+const Department = ({ department, menu, goods, program, selling, icon }) => {
     return (
         <div className="Department relative">
             <div className="Dtitle absolute text-xs rounded-2xl px-3 py-0.5">{department}</div>
@@ -6,6 +6,7 @@ const Department = ({ department, menu, goods, program, icon }) => {
                 <div className="content flex flex-col items-start justify-start">
                     {menu !== '' && <div><span className="dongariContenttitle">메뉴 | </span>{menu}</div>}
                     {goods !== '' && <div><span className="dongariContenttitle">배부 | </span> {goods}</div>}
+                    {selling !== '' && <div><span className="dongariContenttitle">판매 | </span> {selling}</div>}
                     {program !== '' && <div><span className="dongariContenttitle">프로그램 | </span> {program}</div>}
                 </div>
                 <span className="Dimg shrink-0 flex justify-end">
