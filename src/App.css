@@ -42,7 +42,8 @@ body {
 @media (min-width: 375px) {
     .App,
     .fixedsubtitle,
-    .nav {
+    .nav,
+    .Healingimg img {
         width: 375px;
     }
 }
@@ -50,7 +51,8 @@ body {
 @media (max-width:500px) {
     .App,
     .fixedsubtitle,
-    .Nav {
+    .Nav,
+    .Healingimg img {
         width: 100vw;
     }
 }

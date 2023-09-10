@@ -402,3 +402,8 @@
 .dongariContenttitle {
     color: #ec6362;
 }
+
+.healingText span {
+    color: #0D482D;
+    -webkit-text-stroke: 0.5px white;
+}

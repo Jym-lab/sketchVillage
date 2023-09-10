@@ -5,7 +5,7 @@ import JoyShow from "../component/joy/JoyShow";
 import Nav from "../component/nav/Nav";
 
 const Joy = () => {
-    const [onActive, setOnActive] = useState('매표소');
+    const [onActive, setOnActive] = useState('장기자랑');
     let Content;
 
     useEffect(() => {
