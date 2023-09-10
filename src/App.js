@@ -12,6 +12,7 @@ import { useEffect } from 'react';
 import Present from './component/main/Present';
 import Location from './pages/Location';
 import "tw-elements-react/dist/css/tw-elements-react.min.css";
+import DongariRe from './pages/DongariRe';
 
 function App() {
   useEffect(() => {
@@ -27,14 +28,14 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/sketch' element={<Sketch />} />
-          <Route path='/dongari' element={<Dongari />} />
+          <Route path='/dongari' element={<DongariRe />} />
           <Route path='/neighbor' element={<Neighbor />} />
           <Route path='/joy' element={<Joy />} />
           <Route path='/game' element={<Game />} />
           <Route path='/healing' element={<Healing />} />
           <Route path='/about' element={<About />} />
           <Route path='/location' element={<Location />} />
-          <Route path='/prsent' element={<Present />} />
+          <Route path='/present' element={<Present />} />
         </Routes>
       </div>
     </BrowserRouter>

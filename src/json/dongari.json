@@ -1,83 +1,57 @@
 [{
-        "id": 1,
-        "college": "기독분과",
-        "department": "산돌찬양선교단",
-        "explain": "산돌찬양선교단산돌찬양선교단산돌찬양선교단산돌찬양선교단",
-        "icon": ["food", "gift"]
-    },
-    {
-        "college": "기독분과",
-        "department": "안녕하세용",
-        "explain": "시와찬미시와찬미시와찬미시와찬미",
-        "icon": ["food", "gift", "game"]
-    },
-    {
-        "college": "기독분과",
-        "department": "산돌",
-        "explain": "산돌찬양선교단산돌찬양선교단산돌찬양선교단",
-        "icon": ["game"]
-    },
-    {
-        "college": "문화분과",
-        "department": "C.ddaaddA.S",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["game"]
-    }, {
-        "college": "문화분과",
-        "department": "C.ddaaddA.S",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["game"]
-    }, {
-        "college": "문화분과",
-        "department": "C.ddaaddA.S",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["game"]
-    }, {
-        "college": "문화분과",
-        "department": "C.ddaaddA.S",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["game"]
-    },
-    {
-        "college": "예능분과",
-        "department": "C.ddddA.S",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["gift"]
-    }, {
-        "college": "체능분과",
-        "department": "ssssC.A.S",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["gift"]
-    }, {
-        "college": "체능분과",
-        "department": "ssssC.A.S",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["gift"]
-    }, {
-        "college": "체능분과",
-        "department": "ssssC.A.S",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["gift"]
-    }, {
-        "college": "체능분과",
-        "department": "ssssC.A.S",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["gift"]
-    }, {
-        "college": "체능분과",
-        "department": "ssssC.A.S",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["gift"]
-    },
-    {
-        "college": "학술,봉사분과",
-        "department": "멋사",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["gift"]
-    }, {
-        "college": "학술,봉사분과",
-        "department": "멋쨍이사자처럼.A.S",
-        "explain": "C.A.SC.A.SC.A.SC.A.S",
-        "icon": ["gift"]
-    }
-]
+    "college": "기독분과",
+    "department": "C.ddaaddA.S",
+    "menu": "C.A..S",
+    "goods": "엽서 & L자 파일",
+    "program": "있어요",
+    "icon": ["game", "food", "gift"]
+}, {
+    "college": "기독분과",
+    "department": "C.ddaaddA.S",
+    "menu": "",
+    "goods": "엽서 & L자 파일",
+    "program": "발차기",
+    "icon": ["game"]
+}, {
+    "college": "학술,봉사",
+    "department": "멋쟁이사자처럼",
+    "menu": "C.A..S",
+    "goods": "엽서 & L자 파일",
+    "program": "가위바위보",
+    "icon": ["game"]
+}, {
+    "college": "체능분과",
+    "department": "발차기마인",
+    "menu": "C.A..S",
+    "goods": "엽서 & L자 파일",
+    "program": "",
+    "icon": ["game"]
+}, {
+    "college": "예능분과",
+    "department": "C.ddaaddA.S",
+    "menu": "C.A..S",
+    "goods": "엽서 & L자 파일",
+    "program": "",
+    "icon": ["game"]
+}, {
+    "college": "기독분과",
+    "department": "C.ddaaddA.S",
+    "menu": "C.A..S",
+    "goods": "엽서 & L자 파일",
+    "program": "",
+    "icon": ["game"]
+}, {
+    "college": "체능분화",
+    "department": "C.ddaaddA.S",
+    "menu": "C.A..S",
+    "goods": "엽서 & L자 파일",
+    "program": "",
+    "icon": ["game"]
+}, {
+    "college": "문화분과",
+    "department": "C.ddaaddA.S",
+    "menu": "C.A..S",
+    "goods": "엽서 & L자 파일",
+    "program": "",
+    "icon": ["game"]
+}]

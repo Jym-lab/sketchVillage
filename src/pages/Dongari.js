@@ -24,6 +24,8 @@ const Dongari = () => {
                     <img src={process.env.PUBLIC_URL + `assets/Logo/Logo.png`} alt="부스 배치도" />
                 </div>
             </div>
+
+
             {/* 부스 소개 */}
             <div>
                 <Subtitle character={'dongari'} title={"부스 소개"} direction={'right'} />
