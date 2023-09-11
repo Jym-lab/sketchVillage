@@ -22,6 +22,10 @@
     left: -25px;
 }
 
+.Subtitle .timetableimg {
+    left: -38px !important;
+}
+
 .Subtitle .sketch_color {
     background-color: #F0D7AA;
     color: #ECAA24;
@@ -414,6 +418,14 @@
 
 
 /* joy */
+
+.timetable {
+    background-color: #E0C0EC;
+}
+
+.timetable div:first-child {
+    color: #AE87BC;
+}
 
 .dongariLogo1 {
     right: 50px;

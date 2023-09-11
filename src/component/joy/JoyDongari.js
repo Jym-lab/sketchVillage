@@ -1,11 +1,31 @@
 import Subtitle from "../Subtitle";
+import { HiMusicalNote } from "react-icons/hi2";
 
 const JoyDongari = () => {
     return (
-        <div className="JoyDongari">
+        <div className="JoyDongari slide-in">
+            {/* TimeTable */}
             <Subtitle character={'joy'} title={'TIME TABLE'} direction={'left'} />
-            <Subtitle character={'joy'} title={'LINE UP'} direction={'right'} />
+            <div className="timetable w-10/12 m-auto text-center">
+                <div className="py-3 text-lg font-extrabold flex justify-center items-center">
+                    <HiMusicalNote className="mr-1 mb-1" />
+                    난 그대의 연예인 14:00~15:00
+                    <HiMusicalNote className="ml-1 mb-1" />
+                </div>
 
+                <div className="grid grid-cols-2 w-7/12 m-auto pb-3 gap-1 text-start">
+                    <p>1. 세인트</p>
+                    <p>5. 뮤직애</p>
+                    <p>2. 소리하나</p>
+                    <p>6. STC</p>
+                    <p>3. 흑심</p>
+                    <p>7. 페가수스</p>
+                    <p>4. 소너러스</p>
+                </div>
+            </div>
+
+            {/* Line Up */}
+            <Subtitle character={'joy'} title={'LINE UP'} direction={'right'} />
             <div className="dongarifont italic">
                 <div className="flex justify-center items-end relative my-10">
                     <img width='230' className='relative z-10' src={process.env.PUBLIC_URL + `assets/joyDongari/1.png`} alt="" />
