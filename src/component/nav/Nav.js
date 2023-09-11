@@ -19,7 +19,7 @@ const Nav = () => {
                 </div>
 
 
-                <div className={`OA off-screen-menu ${isOpen ? 'open fixed' : 'hidden'} flex justify-center items-center tracking-[1px]`}>
+                <div className={`OA off-screen-menu ${isOpen ? 'open fixed slideInDown' : 'hidden'} flex justify-center items-center tracking-[1px]`}>
                     {isOpen && (
                         <ShowNav />
                     )}

@@ -10,7 +10,7 @@ const Location = () => {
                     <img src={process.env.PUBLIC_URL + `assets/welcome.png`} alt="welcome title" />
                 </div>
                 <div className="w-11/12 mx-auto my-10">
-                    <img src={process.env.PUBLIC_URL + `assets/location.png`} alt="welcome title" />
+                    <img className='slit-in-vertical' src={process.env.PUBLIC_URL + `assets/location.png`} alt="welcome title" />
                 </div>
                 <div className="locationbtn flex justify-center">
                     <WelcomeBtn content={'동아리연합회 부스'} village={'sketch'} />

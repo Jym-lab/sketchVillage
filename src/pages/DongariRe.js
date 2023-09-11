@@ -48,7 +48,7 @@ const DongariRe = () => {
 
 
             {/* 부스 소개 */}
-            <div>
+            <div className="mt-16">
                 <Subtitle character={'dongari'} title={"부스 소개"} direction={'right'} />
                 <div className="dongariSearch text-center relative my-7 z-10">
                     <input
