@@ -6,13 +6,13 @@ import dongari from '../json/dongari.json';
 import { useEffect, useState } from "react";
 
 const DongariRe = () => {
-    const college = ['전체', '기독분과', '문화분과', '예능분과', '체능분과', '학술,봉사'];
+    const college = ['전체', '기독분과', '문화분과', '예능분과', '체능분과', '학술/봉사'];
     useEffect(() => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth',
         });
-    })
+    }, [])
 
     const [filterDongari, setFilterDonagari] = useState(dongari);
     const [searchText, setSearchText] = useState('');
@@ -42,7 +42,7 @@ const DongariRe = () => {
             <div className="pt-14">
                 <Subtitle character={'dongari'} title={"부스 배치도"} direction={'left'} />
                 <div className="w-11/12 m-auto">
-                    <img src={process.env.PUBLIC_URL + `assets/Logo/Logo.png`} alt="부스 배치도" />
+                    <img src={process.env.PUBLIC_URL + `assets/dongari/locate.png`} alt="부스 배치도" />
                 </div>
             </div>
 
@@ -72,12 +72,13 @@ const DongariRe = () => {
                     {filterDongari.map((item, idx) => {
                         return (
                             <>
-                                <Department department={item.department} menu={item.menu} goods={item.goods} program={item.program} icon={item.icon} />
+                                <Department department={item.department} menu={item.menu} goods={item.goods} program={item.program} selling={item.selling} icon={item.icon} />
                             </>
                         )
                     })}
                 </div>
             </div>
+            <div className="last"></div>
         </div >
     )
 }

@@ -1,57 +1,205 @@
 [{
-    "college": "기독분과",
-    "department": "C.ddaaddA.S",
-    "menu": "C.A..S",
-    "goods": "엽서 & L자 파일",
-    "program": "있어요",
-    "icon": ["game", "food", "gift"]
-}, {
-    "college": "기독분과",
-    "department": "C.ddaaddA.S",
-    "menu": "",
-    "goods": "엽서 & L자 파일",
-    "program": "발차기",
-    "icon": ["game"]
-}, {
-    "college": "학술,봉사",
-    "department": "멋쟁이사자처럼",
-    "menu": "C.A..S",
-    "goods": "엽서 & L자 파일",
-    "program": "가위바위보",
-    "icon": ["game"]
-}, {
-    "college": "체능분과",
-    "department": "발차기마인",
-    "menu": "C.A..S",
-    "goods": "엽서 & L자 파일",
-    "program": "",
-    "icon": ["game"]
-}, {
-    "college": "예능분과",
-    "department": "C.ddaaddA.S",
-    "menu": "C.A..S",
-    "goods": "엽서 & L자 파일",
-    "program": "",
-    "icon": ["game"]
-}, {
-    "college": "기독분과",
-    "department": "C.ddaaddA.S",
-    "menu": "C.A..S",
-    "goods": "엽서 & L자 파일",
-    "program": "",
-    "icon": ["game"]
-}, {
-    "college": "체능분화",
-    "department": "C.ddaaddA.S",
-    "menu": "C.A..S",
-    "goods": "엽서 & L자 파일",
-    "program": "",
-    "icon": ["game"]
-}, {
-    "college": "문화분과",
-    "department": "C.ddaaddA.S",
-    "menu": "C.A..S",
-    "goods": "엽서 & L자 파일",
-    "program": "",
-    "icon": ["game"]
-}]
+        "college": "기독분과",
+        "department": "CCC",
+        "menu": "닭꼬치",
+        "goods": "",
+        "program": "",
+        "selling": "",
+        "icon": ["food"]
+    },
+    {
+        "college": "기독분과",
+        "department": "마르튀스",
+        "menu": "용가리, 만두",
+        "goods": "",
+        "program": "",
+        "selling": "제작 키링",
+        "icon": ["food", "gift"]
+    }, {
+        "college": "기독분과",
+        "department": "애양선교회",
+        "menu": "떡꼬치",
+        "goods": "",
+        "program": "",
+        "selling": "",
+        "icon": ["food"]
+    }, {
+        "college": "기독분과",
+        "department": "예수전도단",
+        "menu": "오코노미야끼, 캔음료",
+        "goods": "제작 L자 파일, 엽서",
+        "program": "",
+        "selling": "",
+        "icon": ["food", "gift"]
+    }, {
+        "college": "기독분과",
+        "department": "산돌찬양선교단",
+        "menu": "미니 붕어빵, 아이스크림",
+        "goods": "",
+        "program": "",
+        "selling": "",
+        "icon": ["food"]
+    }, {
+        "college": "기독분과",
+        "department": "시와 찬미",
+        "menu": "라면땅, 콘치즈",
+        "goods": " 말씀 카드, 동아리 소개글",
+        "program": "",
+        "selling": "",
+        "icon": ["food", "gift"]
+    }, {
+        "college": "기독분과",
+        "department": "주사랑음악선교단",
+        "menu": "아이스티,에이드,커피",
+        "goods": "제작 굿즈",
+        "program": "",
+        "selling": "",
+        "icon": ["food", "gift"]
+    },
+    {
+        "college": "문화분과",
+        "department": "시대남김",
+        "menu": "떡볶이, 튀김",
+        "goods": "",
+        "program": "",
+        "selling": "",
+        "icon": ["food"]
+    }, {
+        "college": "문화분과",
+        "department": "C.A.S",
+        "menu": "소다 에이드, 자몽 에이드",
+        "goods": "",
+        "program": "대전 게임 컨텐츠",
+        "selling": "",
+        "icon": ["food", "game"]
+    }, {
+        "college": "예능분과",
+        "department": "소너러스",
+        "menu": "미국식 핫도그, 탄산음료",
+        "goods": "",
+        "program": "",
+        "selling": "",
+        "icon": ["food"]
+    }, {
+        "college": "예능분과",
+        "department": "세인트",
+        "menu": "프렌치 토스트",
+        "goods": "",
+        "program": "노래 맞히기 게임",
+        "selling": "",
+        "icon": ["food", "game"]
+    }, {
+        "college": "예능분과",
+        "department": "뮤직애",
+        "menu": "참치 카나페, 미숫가루",
+        "goods": "",
+        "program": "",
+        "selling": "",
+        "icon": ["food"]
+    },
+    {
+        "college": "예능분과",
+        "department": "흑심",
+        "menu": "",
+        "goods": "",
+        "program": "SNS 구독자에 한해 머리핀, 야광팔찌 증정",
+        "selling": "",
+        "icon": ["gift"]
+    },
+    {
+        "college": "예능분과",
+        "department": "페가수스",
+        "menu": "음료수",
+        "goods": "",
+        "program": "",
+        "selling": "",
+        "icon": ["food"]
+    },
+    {
+        "college": "예능분과",
+        "department": "소리하나",
+        "menu": "치즈시즈닝 군옥수수, 쥐포구이, 마시멜로우, 사이다, 콜라",
+        "goods": "",
+        "program": "음악 퀴즈",
+        "selling": " 제작 굿즈",
+        "icon": ["food", "gift", "game"]
+    }, {
+        "college": "체능분과",
+        "department": "PRESS",
+        "menu": "음료수",
+        "goods": "",
+        "program": "농구공 넣기 게임",
+        "selling": "",
+        "icon": ["game"]
+    },
+    {
+        "college": "체능분과",
+        "department": "S-COCK",
+        "menu": "",
+        "goods": "",
+        "program": "셔틀콕 넣기 게임",
+        "selling": "",
+        "icon": ["game"]
+    },
+    {
+        "college": "체능분과",
+        "department": "더그아웃",
+        "menu": "",
+        "goods": "",
+        "program": "더그아웃 동아리원을 찾아라 게임",
+        "selling": "",
+        "icon": ["game"]
+    },
+    {
+        "college": "체능분과",
+        "department": "성결 FC",
+        "menu": "",
+        "goods": "",
+        "program": "축구공을 이용한 게임",
+        "selling": "",
+        "icon": ["game"]
+    },
+    {
+        "college": "체능분과",
+        "department": "하랑",
+        "menu": "가래 떡꼬치",
+        "goods": "",
+        "program": "",
+        "selling": "",
+        "icon": ["food"]
+    }, {
+        "college": "체능분과",
+        "department": "STC",
+        "menu": "",
+        "goods": "",
+        "program": "15초 스피드 발차기",
+        "selling": "",
+        "icon": ["game"]
+    },
+    {
+        "college": "학술/봉사",
+        "department": "애드마인",
+        "menu": "소세지 구이, 치즈 구이, 에이드",
+        "goods": "",
+        "program": "",
+        "selling": "",
+        "icon": ["food"]
+    }, {
+        "college": "학술/봉사",
+        "department": "희망선교회",
+        "menu": "소세지, 가래떡, 소떡소떡",
+        "goods": "",
+        "program": "",
+        "selling": "",
+        "icon": ["food"]
+    },
+    {
+        "college": "학술/봉사",
+        "department": "멋쟁이사자처럼",
+        "menu": "나초, 에이드",
+        "goods": "",
+        "program": "동아리 활동 홍보",
+        "selling": "",
+        "icon": ["food", "game"]
+    }
+]

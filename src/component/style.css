@@ -119,6 +119,11 @@
 
 /* Dongari */
 
+.boothcontent div {
+    text-align: start;
+    word-break: keep-all;
+}
+
 
 /* Dongari 검색창 */
 
@@ -152,7 +157,7 @@
 }
 
 .Department .Dimg {
-    width: 60px;
+    min-width: 30px;
     margin-left: 10px;
 }
 
