@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
+    font-family: 'BookkMyungjo-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'SF_HailSnow';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HailSnow.woff') format('woff');
     font-weight: normal;
@@ -13,6 +20,10 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/OAGothic-ExtraBold.woff2') format('woff2');
     font-weight: 800;
     font-style: normal;
+}
+
+.dongarifont {
+    font-family: 'BookkMyungjo-Bd';
 }
 
 .snowFont {

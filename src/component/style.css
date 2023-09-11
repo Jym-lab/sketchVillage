@@ -406,3 +406,41 @@
     color: #0D482D;
     -webkit-text-stroke: 0.5px white;
 }
+
+
+/* joy */
+
+.dongariLogo1 {
+    right: 50px;
+    bottom: 40px;
+}
+
+.dongariLogo2 {
+    left: 70px;
+    bottom: 20px;
+}
+
+.dongariLogo3 {
+    right: 60px;
+    bottom: 50px;
+}
+
+.dongariLogo4 {
+    left: 60px;
+    bottom: 30px;
+}
+
+.dongariLogo5 {
+    right: 30px;
+    bottom: 40px;
+}
+
+.dongariLogo6 {
+    left: 70px;
+    bottom: 40px;
+}
+
+.dongariLogo7 {
+    right: 70px;
+    bottom: 30px;
+}
