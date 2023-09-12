@@ -36,9 +36,9 @@ const About = () => {
                     <p className="titlegreen font-bold text-xs pt-3 text-center">멋쟁이사자처럼 성결대 11기</p>
                     <a className="text-xs font-bold text-gray py-2 text-center" target="_blank" without rel="noreferrer" href="https://www.instagram.com/likelion_sku/">@likelion_sku</a>
                     <div className="people">
-                        <Person id={4} />
-                        <Person id={5} />
                         <Person id={6} />
+                        <Person id={5} />
+                        <Person id={4} />
                     </div>
                 </div>
                 <img className="mt-20" src={process.env.PUBLIC_URL + `assets/bottom.png`} alt="sketch logo" />

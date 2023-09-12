@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "image": "assets/Logo/sketchLogo.png",
+    "image": "assets/about/yunhee.png",
     "logo": "assets/Logo/sketchLogo.png",
     "name": "공윤희",
     "department": "미디어소프트웨어학과 21",
@@ -9,7 +9,7 @@
 },
 {
     "id": 2,
-    "image": "assets/Logo/sketchLogo.png",
+    "image": "assets/about/minah.png",
     "logo": "assets/Logo/sketchLogo.png",
     "name": "강민아",
     "department": "행정학과 20",
@@ -18,7 +18,7 @@
 },
 {
     "id": 3,
-    "image": "assets/Logo/sketchLogo.png",
+    "image": "assets/about/nayeong.png",
     "logo": "assets/Logo/sketchLogo.png",
     "name": "김나영",
     "department": "산업경영공학과 21",
@@ -27,7 +27,7 @@
 },
 {
     "id": 4,
-    "image": "assets/Logo/likelion.png",
+    "image": "assets/about/hyunjun.png",
     "logo": "assets/Logo/likelion.png",
     "name": "김현준",
     "department": "산업경영공학과 17",
@@ -36,7 +36,7 @@
 },
 {
     "id": 5,
-    "image": "assets/Logo/likelion.png",
+    "image": "assets/about/youngmin.png",
     "logo": "assets/Logo/likelion.png",
     "name": "주영민",
     "department": "미디어소프트웨어학과 17",
@@ -45,7 +45,7 @@
 },
 {
     "id": 6,
-    "image": "assets/Logo/likelion.png",
+    "image": "assets/about/seunghee.png",
     "logo": "assets/Logo/likelion.png",
     "name": "노승희",
     "department": "미디어소프트웨어학과 20",
