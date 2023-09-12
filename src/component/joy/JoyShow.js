@@ -9,7 +9,7 @@ const JoyShow = () => {
             <div className="timetable w-10/12 m-auto text-center">
                 <div className="py-3 text-lg font-extrabold flex justify-center items-center">
                     <HiMusicalNote className="mr-1 mb-1" />
-                    우리 마을 끼쟁이 14:00~15:00
+                    우리 마을 끼쟁이 14:00 ~ 15:00
                     <HiMusicalNote className="ml-1 mb-1" />
                 </div>
 

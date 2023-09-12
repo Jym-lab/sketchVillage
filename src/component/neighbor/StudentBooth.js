@@ -18,7 +18,7 @@ const StudentBooth = () => {
                             <li className="NeighborsmallTag">#간식거리 #음식이용권</li>
                             <li className="flex justify-center items-centere">
                                 <Link to="https://instagram.com/sku_bluein?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer"><BsInstagram className="mr-3" /></Link>
-                                <Link to="블루인유튜브링크" target="_blank" rel="noopener noreferrer"><BsYoutube /></Link>
+                                <Link to="https://www.youtube.com/channel/UCqynI29fkZGAgE7isDCRfiw" target="_blank" rel="noopener noreferrer"><BsYoutube /></Link>
                             </li>
 
                         </ul>

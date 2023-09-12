@@ -9,7 +9,7 @@ const JoyDongari = () => {
             <div className="timetable w-10/12 m-auto text-center">
                 <div className="py-3 text-lg font-extrabold flex justify-center items-center">
                     <HiMusicalNote className="mr-1 mb-1" />
-                    난 그대의 연예인 14:00~15:00
+                    난 그대의 연예인 17:00 ~ 20:00
                     <HiMusicalNote className="ml-1 mb-1" />
                 </div>
 

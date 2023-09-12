@@ -7,20 +7,12 @@ import Game from './pages/Game';
 import Joy from './pages/Joy';
 import Healing from './pages/Healing';
 import About from './pages/About';
-import { useEffect } from 'react';
 import Present from './component/main/Present';
 import Location from './pages/Location';
 import "tw-elements-react/dist/css/tw-elements-react.min.css";
 import DongariRe from './pages/DongariRe';
 
 function App() {
-  // useEffect(() => {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: 'smooth',
-  //   })
-  // })
-
   return (
     <BrowserRouter>
       <div className="App">
