@@ -4,8 +4,15 @@ import './About.css';
 
 import Lottie from "lottie-react";
 import loadingLottie from "../lottie/handshake.json";
+import { useEffect } from "react";
 
 const About = () => {
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    })
     return (
         <>
             <div className="About Backcolor">

@@ -239,7 +239,8 @@
 /* Nav */
 
 .nav-bg-scrolled {
-    background-color: #FBF4E8;
+    background-color: rgb(251, 244, 232, 0.1);
+    backdrop-filter: blur(4px);
 }
 
 @layer utilities {
@@ -492,7 +493,7 @@
 }
 
 .basicColor {
-    background-color: #FBF4E8;
+    background-color: rgb(251, 244, 232);
 }
 
 .dongariContenttitle {
