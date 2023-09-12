@@ -11,8 +11,38 @@ import Present from './component/main/Present';
 import Location from './pages/Location';
 import "tw-elements-react/dist/css/tw-elements-react.min.css";
 import DongariRe from './pages/DongariRe';
+import { useEffect } from 'react';
+import axios from 'axios';
+import { getCookie, setCookie } from './utils/cookie';
 
 function App() {
+	useEffect(() => {
+		const cookie = getCookie('visitor');
+		if (!cookie) {
+			const currentDate = new Date();
+			const expiresDate = new Date(
+			  currentDate.getFullYear(),
+			  currentDate.getMonth(),
+			  currentDate.getDate() + 1, // 다음 날로 설정
+			  0, // 시간을 00시로 설정
+			  0, // 분을 00분으로 설정
+			  0, // 초를 00초로 설정
+			);
+			// 시차 보정
+			setCookie('visitor', 'visitor', {path: '/', expires: expiresDate , secure: true});
+			callAPI();
+		}
+	}, []);
+
+	const callAPI = () => {
+		axios.get('https://api.sku-sku.com/visitors/sketchcounts/')
+		  .then((response) => {
+			console.log(response.data);
+		  })
+		  .catch((error) => {
+			console.error('API Error: ', error);
+		  })
+	}
   return (
     <BrowserRouter>
       <div className="App">
