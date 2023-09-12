@@ -19,7 +19,7 @@ const GameModal = ({ img }) => {
                     <TERipple rippleColor="white">
                         <button
                             onClick={() => { img === 'first' ? setShowfirstModal(true) : setShowsecondModal(true) }}
-                            className={`gamebtn shadow-md rounded-2xl py-1 mt-5 z-10 ${img === 'third' ? 'hidden' : ''}`}>
+                            className={`shake-lr gamebtn shadow-md rounded-2xl py-1 mt-5 z-10 ${img === 'third' ? 'hidden' : ''}`}>
                             경품
                         </button>
                     </TERipple>
