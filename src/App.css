@@ -53,7 +53,7 @@ body {
 @media (min-width: 375px) {
     .App,
     .fixedsubtitle,
-    .nav,
+    .Nav,
     .Healingimg img {
         width: 375px;
     }

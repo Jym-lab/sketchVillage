@@ -1,55 +1,55 @@
 [{
-    "id": 1,
-    "image": "assets/about/yunhee.png",
-    "logo": "assets/Logo/sketchLogo.png",
-    "name": "공윤희",
-    "department": "미디어소프트웨어학과 21",
-    "position": "부동연장",
-    "role": "웹디자인"
-},
-{
-    "id": 2,
-    "image": "assets/about/minah.png",
-    "logo": "assets/Logo/sketchLogo.png",
-    "name": "강민아",
-    "department": "행정학과 20",
-    "position": "홍보국장",
-    "role": "웹 디자인"
-},
-{
-    "id": 3,
-    "image": "assets/about/nayeong.png",
-    "logo": "assets/Logo/sketchLogo.png",
-    "name": "김나영",
-    "department": "산업경영공학과 21",
-    "position": "복지국장",
-    "role": "웹 디자인"
-},
-{
-    "id": 4,
-    "image": "assets/about/hyunjun.png",
-    "logo": "assets/Logo/likelion.png",
-    "name": "김현준",
-    "department": "산업경영공학과 17",
-    "position": "대표",
-    "role": "Front-End"
-},
-{
-    "id": 5,
-    "image": "assets/about/youngmin.png",
-    "logo": "assets/Logo/likelion.png",
-    "name": "주영민",
-    "department": "미디어소프트웨어학과 17",
-    "position": "부대표",
-    "role": "Front-End"
-},
-{
-    "id": 6,
-    "image": "assets/about/seunghee.png",
-    "logo": "assets/Logo/likelion.png",
-    "name": "노승희",
-    "department": "미디어소프트웨어학과 20",
-    "position": "운영진",
-    "role": "Front-End"
-}
+        "id": 1,
+        "image": "assets/about/yunhee.png",
+        "logo": "assets/Logo/sketchLogo.png",
+        "name": "공윤희",
+        "department": "미디어소프트웨어학과 21",
+        "position": "부동연장",
+        "role": "웹 디자인"
+    },
+    {
+        "id": 2,
+        "image": "assets/about/minah.png",
+        "logo": "assets/Logo/sketchLogo.png",
+        "name": "강민아",
+        "department": "행정학과 20",
+        "position": "홍보국장",
+        "role": "웹 디자인"
+    },
+    {
+        "id": 3,
+        "image": "assets/about/nayeong.png",
+        "logo": "assets/Logo/sketchLogo.png",
+        "name": "김나영",
+        "department": "산업경영공학과 21",
+        "position": "복지국장",
+        "role": "웹 디자인"
+    },
+    {
+        "id": 4,
+        "image": "assets/about/hyunjun.png",
+        "logo": "assets/Logo/likelion.png",
+        "name": "김현준",
+        "department": "산업경영공학과 17",
+        "position": "대표",
+        "role": "Front-End"
+    },
+    {
+        "id": 5,
+        "image": "assets/about/youngmin.png",
+        "logo": "assets/Logo/likelion.png",
+        "name": "주영민",
+        "department": "미디어소프트웨어학과 17",
+        "position": "부대표",
+        "role": "Front-End/배포"
+    },
+    {
+        "id": 6,
+        "image": "assets/about/seunghee.png",
+        "logo": "assets/Logo/likelion.png",
+        "name": "노승희",
+        "department": "미디어소프트웨어학과 20",
+        "position": "운영진",
+        "role": "Front-End"
+    }
 ]
