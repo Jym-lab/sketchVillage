@@ -2,6 +2,9 @@ import Nav from "../component/nav/Nav";
 import Person from "../component/about/Person";
 import './About.css';
 
+import Lottie from "lottie-react";
+import loadingLottie from "../lottie/handshake.json";
+
 const About = () => {
     return (
         <>
@@ -9,12 +12,13 @@ const About = () => {
                 <Nav />
                 <p className="OAtitle text-3xl text-center pb-6 pt-20">만든이들</p>
                 <div className="collabo flex items-center justify-center">
-                    <div className="team-logo flex flex-col mx-auto">
+                    <div className="team-logo flex flex-col  w-4/12">
                         <img className="mx-auto" src={process.env.PUBLIC_URL + `assets/Logo/sketchLogo.png`} alt="sketch logo" />
                         <span className="text-center mt-3 titlegreen font-bold">SKETCH</span>
                         <span className="text-center text-gray font-bold">동아리연합회</span>
                     </div>
-                    <div className="team-logo flex flex-col mx-auto">
+                    <Lottie className='w-2/12' animationData={loadingLottie} />
+                    <div className="team-logo flex flex-col w-4/12">
                         <img className="mx-auto py-6" src={process.env.PUBLIC_URL + `assets/Logo/likelion.png`} alt="likelion logo" />
                         <span className="text-center mt-3 titlegreen font-bold">성결대학교</span>
                         <span className="text-center text-gray font-bold">멋쟁이사자처럼</span>
