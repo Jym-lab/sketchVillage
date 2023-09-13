@@ -18,7 +18,7 @@ const JoyDongari = () => {
                     <p>1. 세인트</p>
                     <p>5. 뮤직애</p>
                     <p>2. 소리하나</p>
-                    <p>6. STC</p>
+                    <p>6. S.T.C</p>
                     <p>3. 흑심</p>
                     <p>7. 페가수스</p>
                     <p>4. 소너러스</p>
@@ -35,7 +35,7 @@ const JoyDongari = () => {
                 </div>
 
                 <div className="flex justify-center items-end relative my-10">
-                    <p className="text-2xl mb-3">Sound One</p>
+                    <p className="text-2xl mb-3">소리하나</p>
                     <img width='230' className='relative z-10' src={process.env.PUBLIC_URL + `assets/joyDongari/2.png`} alt="" />
                     <img width='150' className='dongariLogo2 absolute opacity-30' src={process.env.PUBLIC_URL + `assets/joyDongari/2Logo.png`} alt="" />
                 </div>
@@ -59,7 +59,7 @@ const JoyDongari = () => {
                 </div>
 
                 <div className="flex justify-center items-end relative my-10">
-                    <p className="text-2xl mb-5">STC</p>
+                    <p className="text-2xl mb-5">S.T.C</p>
                     <img width='230' className='relative z-10' src={process.env.PUBLIC_URL + `assets/joyDongari/6.png`} alt="" />
                     <img width='130' className='dongariLogo6 absolute opacity-30' src={process.env.PUBLIC_URL + `assets/joyDongari/6Logo.png`} alt="" />
                 </div>
