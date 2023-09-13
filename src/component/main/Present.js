@@ -84,7 +84,7 @@ export default function Present(): JSX.Element {
                             <div className="flex flex-col items-center">
                                 <img width='150' src={process.env.PUBLIC_URL + `assets/modal/modal1-title.png`} alt="img" />
                                 <img width='200' src={process.env.PUBLIC_URL + `assets/modal/modal1.png`} alt="img" />
-                                <p className="OAtitle text-xl text-center ">
+                                <p className="OAtitle oatitleshadownone  text-xl text-center ">
                                     SKETCH 매표소에서 <br />
                                     팜플렛을 받아 <br />
                                     미션을 수행해 보세요!</p>

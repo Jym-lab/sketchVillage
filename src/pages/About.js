@@ -52,7 +52,7 @@ const About = () => {
                         <Person id={4} />
                     </div>
                 </div>
-                <img className="mt-20" src={process.env.PUBLIC_URL + `assets/bottom.png`} alt="sketch logo" />
+                <div className="last"></div>
             </div>
         </>
     )

@@ -21,46 +21,46 @@ function App() {
 		if (!cookie) {
 			const currentDate = new Date();
 			const expiresDate = new Date(
-			  currentDate.getFullYear(),
-			  currentDate.getMonth(),
-			  currentDate.getDate() + 1, // 다음 날로 설정
-			  0, // 시간을 00시로 설정
-			  0, // 분을 00분으로 설정
-			  0, // 초를 00초로 설정
+				currentDate.getFullYear(),
+				currentDate.getMonth(),
+				currentDate.getDate() + 1, // 다음 날로 설정
+				0, // 시간을 00시로 설정
+				0, // 분을 00분으로 설정
+				0, // 초를 00초로 설정
 			);
 			// 시차 보정
-			setCookie('visitor', 'visitor', {path: '/', expires: expiresDate , secure: true});
+			setCookie('visitor', 'visitor', { path: './', expires: expiresDate, secure: true });
 			callAPI();
 		}
 	}, []);
 
 	const callAPI = () => {
 		axios.get('https://api.sku-sku.com/visitors/sketchcounts/')
-		  .then((response) => {
-			console.log(response.data);
-		  })
-		  .catch((error) => {
-			console.error('API Error: ', error);
-		  })
+			.then((response) => {
+				console.log(response.data);
+			})
+			.catch((error) => {
+				console.error('API Error: ', error);
+			})
 	}
-  return (
-    <BrowserRouter>
-      <div className="App">
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/sketch' element={<Sketch />} />
-          <Route path='/dongari' element={<DongariRe />} />
-          <Route path='/neighbor' element={<Neighbor />} />
-          <Route path='/joy' element={<Joy />} />
-          <Route path='/game' element={<Game />} />
-          <Route path='/healing' element={<Healing />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/location' element={<Location />} />
-          <Route path='/present' element={<Present />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
-  );
+	return (
+		<BrowserRouter>
+			<div className="App">
+				<Routes>
+					<Route path='/' element={<Home />} />
+					<Route path='/sketch' element={<Sketch />} />
+					<Route path='/dongari' element={<DongariRe />} />
+					<Route path='/neighbor' element={<Neighbor />} />
+					<Route path='/joy' element={<Joy />} />
+					<Route path='/game' element={<Game />} />
+					<Route path='/healing' element={<Healing />} />
+					<Route path='/about' element={<About />} />
+					<Route path='/location' element={<Location />} />
+					<Route path='/present' element={<Present />} />
+				</Routes>
+			</div>
+		</BrowserRouter>
+	);
 }
 
 export default App;
