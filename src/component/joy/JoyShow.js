@@ -26,7 +26,7 @@ const JoyShow = () => {
 
             {/* Line Up */}
             <Subtitle character={'joy'} title={'LINE UP'} direction={'right'} />
-            <div className="dongarifont italic joyshowimg">
+            <div className="dongarifont joyshowimg">
                 <div className="flex justify-center items-center relative my-5">
                     <img width='230' className='mr-20' src={process.env.PUBLIC_URL + `assets/joyshow/1.png`} alt="" />
                     <p className="text-4xl absolute right-8 bottom-8 flex flex-col">

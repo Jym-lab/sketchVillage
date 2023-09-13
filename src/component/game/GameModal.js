@@ -13,7 +13,7 @@ const GameModal = ({ img }) => {
     const [showsecondModal, setShowsecondModal] = useState(false);
 
     return (
-        <div>
+        <div className={`${img === 'third' ? 'h-0' : ''}`}>
             <div className="GameModal">
                 <div className="space-x-2">
                     <TERipple rippleColor="white">
@@ -116,7 +116,7 @@ const GameModal = ({ img }) => {
                     </TEModalContent>
                 </TEModalDialog>
             </TEModal>
-        </div>
+        </div >
 
 
     )

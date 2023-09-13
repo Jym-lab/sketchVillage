@@ -10,7 +10,7 @@ const Healing = () => {
     },)
 
     return (
-        <div className='Healing Backcolor'>
+        <div className='Healing'>
             <Nav />
             <div className='healingText OAtitle text-center text-3xl pt-32 relative z-10'>
                 <span>휴식</span>하고

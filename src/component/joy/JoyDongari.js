@@ -27,7 +27,7 @@ const JoyDongari = () => {
 
             {/* Line Up */}
             <Subtitle character={'joy'} title={'LINE UP'} direction={'right'} />
-            <div className="dongarifont italic">
+            <div className="dongarifont">
                 <div className="flex justify-center items-end relative my-10">
                     <img width='230' className='relative z-10' src={process.env.PUBLIC_URL + `assets/joyDongari/1.png`} alt="" />
                     <p className="text-2xl mb-8">SAINT</p>

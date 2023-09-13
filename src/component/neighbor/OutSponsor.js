@@ -47,7 +47,11 @@ const OutSponsor = () => {
                                     <SiKakaotalk size='18' className="mr-1" />입솜 카톡채널 추가<HiMiniCursorArrowRays className="ml-1" /></Link></li>
                             <li className="mb-1"><MdOutlineKeyboardDoubleArrowDown /></li>
                             <li className="mb-2"><span className="neighborfontcolor font-bold italic">오일프리 모이스처라이저</span> 증정</li>
-                            <li className="NeighborsmallTag">+ '화해'어플로 <span className="font-bold">리뷰 작성시 토너 추가 증정</span>(캡쳐사진 요청 예정) </li>
+
+                            <li className="NeighborsmallTag">
+                                + '화해'어플로<br /> <span className="font-bold"> 사용후기 남기면
+                                    토너 증정<br />
+                                </span>(행사 종료 이후) <br /> * 캡쳐사진 요청 예정 </li>
                         </ul>
                         <img width='110' src={process.env.PUBLIC_URL + `assets/neighbor/yvesom.png`} alt="몬스터" />
                     </div>

@@ -120,6 +120,14 @@
     color: #92CA86;
 }
 
+.Healing {
+    background-color: #FEF7E7;
+}
+
+.Healingimg {
+    background-color: #FEF7E7;
+}
+
 
 /* Dongari */
 
@@ -474,6 +482,7 @@
 
 .modalbody {
     border-radius: 10px;
+    padding-bottom: 3rem !important;
 }
 
 .modalbody>div>img {
@@ -509,11 +518,12 @@
 /* joy */
 
 .timetable {
-    background-color: #E0C0EC;
+    background-color: rgba(202, 143, 224, 0.26);
 }
 
 .timetable div:first-child {
-    color: #AE87BC;
+    color: #705879;
+    font-weight: bold;
 }
 
 .dongariLogo1 {
