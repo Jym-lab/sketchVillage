@@ -8,6 +8,11 @@ import { HiMiniCursorArrowRays } from "react-icons/hi2";
 const OutSponsor = () => {
     return (
         <div className="OutSponsor slide-in">
+            <div className="py-8 flex justify-center items-center">
+                <img className="w-4/12" src={process.env.PUBLIC_URL + `assets/neighbor/룰렛.png`} alt="돌림판" />
+                <div className="text-center roulette text-lg">"돌려돌려 돌림판을 통해<br /> 상품을 받아가세요!"</div>
+            </div>
+
             <div>
                 <ImgSubtitle character={'neighbor'} title={'neighbor/monsterLogo'} direction={'left'} />
 
