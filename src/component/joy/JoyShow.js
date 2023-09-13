@@ -1,5 +1,6 @@
 import Subtitle from "../Subtitle";
 import { HiMusicalNote } from "react-icons/hi2";
+import { IoLeaf } from "react-icons/io5";
 
 const JoyShow = () => {
     return (
@@ -13,14 +14,35 @@ const JoyShow = () => {
                     <HiMusicalNote className="ml-1 mb-1" />
                 </div>
 
-                <div className="grid grid-cols-2 w-11/12 m-auto pb-3 gap-1 text-start">
-                    <p className="ml-12">1. 스.성.파</p>
-                    <p>5. 김이 모락모락 나현</p>
-                    <p className="ml-12">2. OG</p>
-                    <p>6. Girl's on top</p>
-                    <p className="ml-12">3. 시대러스</p>
-                    <p>7. 어쩔핑크</p>
-                    <p className="ml-12">4. 팀명 없음</p>
+                <div className="joytimetabletext text-sm grid grid-cols-2  mx-auto pb-3 gap-1 text-start">
+                    <p className="ml-10 col-span-2">
+                        <IoLeaf color='#2B6935' />
+                        <span>1. 스.성.파(스트릿 성결 파이터)</span>
+                    </p>
+                    <p className="ml-10">
+                        <IoLeaf color='#2B6935' />
+                        <span>2. OG</span>
+                    </p>
+                    <p>
+                        <IoLeaf color='#2B6935' />
+                        <span className="">5. 김이 모락모락 나현</span>
+                    </p>
+                    <p className="ml-10">
+                        <IoLeaf color='#2B6935' />
+                        <span>3. 시대러스</span>
+                    </p>
+                    <p>
+                        <IoLeaf color='#2B6935' />
+                        <span>6. Girl's on top</span>
+                    </p>
+                    <p className="ml-10">
+                        <IoLeaf color='#2B6935' />
+                        <span>4. 팀명 없음</span>
+                    </p>
+                    <p>
+                        <IoLeaf color='#2B6935' />
+                        <span>7. 어쩔핑크</span>
+                    </p>
                 </div>
             </div>
 
@@ -67,7 +89,7 @@ const JoyShow = () => {
                 </div>
                 <div className="last"></div>
             </div>
-        </div>
+        </div >
     )
 }
 

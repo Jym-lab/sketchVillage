@@ -796,3 +796,26 @@
 .roulette {
     color: #5F5F5F;
 }
+
+.leaf {
+    width: 12px;
+    margin-right: 1px;
+}
+
+.joytimetabletext {
+    grid-template-columns: auto 1fr;
+}
+
+.joytimetabletext p {
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: visible;
+}
+
+.joytimetabletext span {
+    margin-left: 2px;
+    flex-grow: 1;
+}

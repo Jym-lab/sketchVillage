@@ -1,5 +1,6 @@
 import Subtitle from "../Subtitle";
 import { HiMusicalNote } from "react-icons/hi2";
+import { IoLeaf } from "react-icons/io5";
 
 
 const JoyDongari = () => {
@@ -14,14 +15,21 @@ const JoyDongari = () => {
                     <HiMusicalNote className="ml-1 mb-1" />
                 </div>
 
-                <div className="grid grid-cols-2 w-7/12 m-auto pb-3 gap-1 text-start">
-                    <p>1. 세인트</p>
-                    <p>5. 뮤직애</p>
-                    <p>2. 소리하나</p>
-                    <p>6. S.T.C</p>
-                    <p>3. 흑심</p>
-                    <p>7. 페가수스</p>
-                    <p>4. 소너러스</p>
+                <div className="joytimetabletext grid grid-cols-2 w-8/12 m-auto pb-3 gap-1 gap-x-6 text-start">
+                    <p>
+                        <IoLeaf color='#2B6935' /><span>1. 세인트</span></p>
+                    <p>
+                        <IoLeaf color='#2B6935' /><span>5. 뮤직애</span></p>
+                    <p>
+                        <IoLeaf color='#2B6935' /><span>2. 소리하나</span></p>
+                    <p>
+                        <IoLeaf color='#2B6935' /><span>6. S.T.C</span></p>
+                    <p>
+                        <IoLeaf color='#2B6935' /><span>3. 흑심</span></p>
+                    <p>
+                        <IoLeaf color='#2B6935' /><span>7. 페가수스</span></p>
+                    <p>
+                        <IoLeaf color='#2B6935' /><span>4. 소너러스</span></p>
                 </div>
             </div>
 
