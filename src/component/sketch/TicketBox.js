@@ -2,8 +2,8 @@ import SketchElement from "./SketchElement";
 import Subtitle from "../Subtitle";
 
 const TicketBox = () => {
-    const missionTag = ['#미션지', '경품 추첨', '소니 헤드셋'];
-    const todayBoothTag = ['#어떤 동아리에', '가입하지?', '#동아리 랜덤 뽑기'];
+    const missionTag = ['#미션지', '#경품 추첨', '#소니 헤드셋'];
+    const todayBoothTag = ['#어떤 동아리에', '놀러가지?', '#동아리 랜덤 뽑기'];
 
     return (
         <div className="TicketBox slide-in">
