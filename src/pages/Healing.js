@@ -17,8 +17,8 @@ const Healing = () => {
                 <br />
                 <span>취식</span>하는 공간
             </div>
-            <div className='absolute -bottom-10 Healingimg'>
-                <img className='' src={process.env.PUBLIC_URL + `assets/healingnotext.png`} alt="" />
+            <div className='relative Healingimg'>
+                <img className='absolute bottom-0' src={process.env.PUBLIC_URL + `assets/healingnotext.png`} alt="" />
             </div>
         </div>
     )

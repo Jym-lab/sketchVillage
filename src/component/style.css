@@ -510,6 +510,10 @@
     color: #ec6362;
 }
 
+.healingText {
+    height: 100vh;
+}
+
 .healingText span {
     color: #0D482D;
     -webkit-text-stroke: 0.5px white;
