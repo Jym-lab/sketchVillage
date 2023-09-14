@@ -9,12 +9,12 @@ const OutSponsor = () => {
     return (
         <div className="OutSponsor slide-in">
             <div className="py-8 flex justify-center items-center">
-                <img className="w-4/12" src={process.env.PUBLIC_URL + `assets/neighbor/룰렛.png`} alt="돌림판" />
+                <img className="w-4/12 mr-2" src={process.env.PUBLIC_URL + `assets/neighbor/룰렛.png`} alt="돌림판" />
                 <div className="text-center roulette text-lg">"돌려돌려 돌림판을 통해<br /> 상품을 받아가세요!"</div>
             </div>
 
             <div>
-                <ImgSubtitle character={'neighbor'} title={'neighbor/monsterLogo'} direction={'left'} />
+                <ImgSubtitle addsize={true} character={'neighbor'} title={'neighbor/monsterLogo'} direction={'left'} />
 
                 <div className="neighborElement Element">
                     <div className="box rounded-2xl p-5 flex justify-evenly items-center text-center">
@@ -25,7 +25,7 @@ const OutSponsor = () => {
             </div>
 
             <div>
-                <ImgSubtitle character={'neighbor'} title={'neighbor/bacchusLogo'} direction={'left'} />
+                <ImgSubtitle addsize={false} character={'neighbor'} title={'neighbor/bacchusLogo'} direction={'left'} />
 
                 <div className="neighborElement Element">
                     <div className="box rounded-2xl p-5 flex flex-row-reverse justify-evenly items-center">
@@ -42,7 +42,7 @@ const OutSponsor = () => {
             </div >
 
             <div>
-                <ImgSubtitle character={'neighbor'} title={'neighbor/yvesomLogo'} direction={'left'} />
+                <ImgSubtitle addsize={false} character={'neighbor'} title={'neighbor/yvesomLogo'} direction={'left'} />
 
                 <div className="neighborElement Element last">
                     <div className="box rounded-2xl p-5 flex justify-evenly items-center">

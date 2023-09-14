@@ -7,7 +7,7 @@ const OutBooth = () => {
     return (
         <div className="OutBooth slide-in text-lg">
             <div>
-                <ImgSubtitle character={'neighbor'} title={'neighbor/sangsangUniv'} direction={'left'} />
+                <ImgSubtitle addsize={true} character={'neighbor'} title={'neighbor/sangsangUniv'} direction={'left'} />
                 <div className="neighborElement Element">
                     <div className="box rounded-2xl p-5 pl-12">
                         <ul className="list-none">
